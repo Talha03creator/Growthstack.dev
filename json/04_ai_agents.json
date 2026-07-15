@@ -1,0 +1,187 @@
+[
+    {
+        "file": "04_ai_agents.json",
+        "category": "AI Agents",
+        "version": "1.0",
+        "knowledge": [
+            {
+                "id": "agent_001",
+                "title": "What are AI Agents",
+                "content": "AI agents are intelligent software systems capable of understanding goals, making decisions, using tools, calling APIs, accessing databases, retrieving documents, and executing multi-step workflows with minimal human intervention."
+            },
+            {
+                "id": "agent_002",
+                "title": "Services",
+                "content": "GrowthsStack.Dev builds custom AI agents for startups, businesses, healthcare, SaaS platforms, customer support, CRM automation, sales automation, data analysis, internal operations, and enterprise software."
+            },
+            {
+                "id": "agent_003",
+                "title": "Capabilities",
+                "content": "AI agents can answer questions, search documents, retrieve company knowledge, analyze files, generate reports, schedule appointments, send emails, call APIs, automate repetitive tasks, and interact with multiple software systems."
+            },
+            {
+                "id": "agent_004",
+                "title": "Technology Stack",
+                "content": "AI agents are built using Python, FastAPI, OpenAI API, Docker, PostgreSQL, Redis, Vector Databases, REST APIs, OAuth, JWT Authentication, Webhooks, AWS, and Next.js."
+            },
+            {
+                "id": "agent_005",
+                "title": "LLM Support",
+                "content": "Supported models include OpenAI GPT, Claude, Gemini, Llama, Qwen, DeepSeek, Mistral, and local open-source language models depending on project requirements."
+            },
+            {
+                "id": "agent_006",
+                "title": "Business Automation",
+                "content": "AI agents automate repetitive workflows such as customer support, HR screening, invoice processing, lead qualification, CRM updates, reporting, and internal operations."
+            },
+            {
+                "id": "agent_007",
+                "title": "Integrations",
+                "content": "AI agents can integrate with WhatsApp, Telegram, Slack, Discord, Gmail, Outlook, Google Sheets, Notion, Airtable, Stripe, PayPal, Shopify, HubSpot, Salesforce, Zapier, n8n, Make.com, and custom APIs."
+            },
+            {
+                "id": "agent_008",
+                "title": "Deployment",
+                "content": "AI agents can be deployed on cloud servers, Docker containers, VPS, AWS, DigitalOcean, Azure, GCP, Render, Railway, or on-premise infrastructure."
+            },
+            {
+                "id": "agent_009",
+                "title": "RAG Support",
+                "content": "AI agents support Retrieval-Augmented Generation (RAG), enabling them to answer questions using business documents, PDFs, websites, databases, SOPs, manuals, and internal knowledge."
+            },
+            {
+                "id": "agent_010",
+                "title": "Security",
+                "content": "AI agents include authentication, role-based access control, encrypted communication, secure APIs, logging, audit trails, and permission management."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is an AI agent?",
+                "answer": "An AI agent is an intelligent software system that can understand goals, make decisions, perform tasks, use tools, and automate workflows."
+            },
+            {
+                "question": "Can you build AI agents?",
+                "answer": "Yes. GrowthsStack.Dev develops custom AI agents tailored to business requirements."
+            },
+            {
+                "question": "Can AI agents use APIs?",
+                "answer": "Yes. AI agents can securely connect with REST APIs, GraphQL APIs, webhooks, and third-party services."
+            },
+            {
+                "question": "Can AI agents read PDFs?",
+                "answer": "Yes. AI agents can search, analyze, summarize, and answer questions from PDFs and other documents using RAG."
+            },
+            {
+                "question": "Can AI agents use databases?",
+                "answer": "Yes. They can interact with PostgreSQL, MySQL, MongoDB, Redis, and vector databases."
+            },
+            {
+                "question": "Can AI agents automate my business?",
+                "answer": "Yes. AI agents can automate customer support, CRM updates, reporting, scheduling, document processing, and many repetitive tasks."
+            },
+            {
+                "question": "Can AI agents send emails?",
+                "answer": "Yes. AI agents can send emails, notifications, reminders, and follow-ups automatically."
+            },
+            {
+                "question": "Can AI agents integrate with WhatsApp?",
+                "answer": "Yes. AI agents can integrate with WhatsApp Business API for customer communication and automation."
+            },
+            {
+                "question": "Can AI agents integrate with CRM?",
+                "answer": "Yes. AI agents work with HubSpot, Salesforce, Zoho, and custom CRM platforms."
+            },
+            {
+                "question": "Do AI agents support multiple languages?",
+                "answer": "Yes. AI agents can communicate in English, Roman English, Urdu, and many other languages depending on the selected AI model."
+            }
+        ],
+        "question_variations": [
+            "AI agent",
+            "AI agents",
+            "What is AI agent?",
+            "Can you build AI agents?",
+            "Need AI agent",
+            "Need automation agent",
+            "AI assistant",
+            "Business AI",
+            "Automation agent",
+            "GPT agent",
+            "OpenAI agent",
+            "Claude agent",
+            "Gemini agent",
+            "Can AI agent read PDF?",
+            "Can AI agent use API?",
+            "Can AI agent search documents?",
+            "Can AI agent automate work?",
+            "Can AI agent connect database?",
+            "Can AI agent call API?",
+            "Enterprise AI agent",
+            "AI agent bnaty ho?",
+            "AI assistant bana skty ho?",
+            "Automation agent chahiye",
+            "Business AI banana hai",
+            "GPT agent chahiye",
+            "AI bot bana do",
+            "AI employee bana skty ho?",
+            "AI workflow banana hai",
+            "AI automation chahiye",
+            "AI CRM automation",
+            "u make AI agent",
+            "need AI agent",
+            "AI bot?",
+            "automation?",
+            "AI helper",
+            "AI employee",
+            "GPT automation",
+            "agent build",
+            "AI system",
+            "AI workflow"
+        ],
+        "keywords": [
+            "AI Agent",
+            "Autonomous AI",
+            "Business Automation",
+            "Workflow Automation",
+            "OpenAI",
+            "GPT",
+            "Claude",
+            "Gemini",
+            "Llama",
+            "Qwen",
+            "DeepSeek",
+            "FastAPI",
+            "Python",
+            "Docker",
+            "Redis",
+            "PostgreSQL",
+            "REST API",
+            "GraphQL",
+            "Webhook",
+            "CRM",
+            "HubSpot",
+            "Salesforce",
+            "WhatsApp",
+            "Telegram",
+            "Slack",
+            "Discord",
+            "Google Sheets",
+            "Notion",
+            "Airtable",
+            "Stripe",
+            "PayPal",
+            "AWS",
+            "Azure",
+            "GCP",
+            "Docker",
+            "RAG",
+            "Vector Database",
+            "Knowledge Base",
+            "Document Search",
+            "Automation",
+            "LLM",
+            "AI Workflow"
+        ]
+    }
+]

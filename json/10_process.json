@@ -1,0 +1,169 @@
+{
+    "file": "10_process.json",
+    "category": "Development Process",
+    "version": "1.0",
+    "knowledge": [
+        {
+            "id": "process_001",
+            "title": "Development Process Overview",
+            "content": "GrowthsStack.Dev follows a structured software development process consisting of Strategy, Architecture, Development, Deployment, and Support. The process is designed to deliver scalable, secure, and maintainable AI-powered software."
+        },
+        {
+            "id": "process_002",
+            "title": "Strategy Phase",
+            "content": "The project begins with understanding business goals, user requirements, existing systems, technical constraints, AI feasibility, data availability, integrations, timeline, and expected outcomes."
+        },
+        {
+            "id": "process_003",
+            "title": "Architecture Phase",
+            "content": "A technical architecture is planned including backend structure, database design, API architecture, authentication, cloud deployment strategy, AI integrations, scalability, security, and system workflows."
+        },
+        {
+            "id": "process_004",
+            "title": "Development Phase",
+            "content": "The solution is implemented using modern technologies such as Python, FastAPI, Next.js, PostgreSQL, Redis, Docker, and AI APIs. Development follows clean architecture, modular code, version control, testing, and API-first principles."
+        },
+        {
+            "id": "process_005",
+            "title": "Testing & Quality Assurance",
+            "content": "Before deployment, the application is tested for functionality, API behavior, authentication, data validation, performance, security, and user experience. Bugs are resolved before release."
+        },
+        {
+            "id": "process_006",
+            "title": "Deployment Phase",
+            "content": "Applications are containerized using Docker and deployed to cloud environments such as AWS, Azure, Railway, Render, DigitalOcean, or VPS servers. Environment configuration, monitoring, backups, and logging are included where applicable."
+        },
+        {
+            "id": "process_007",
+            "title": "Support & Maintenance",
+            "content": "After deployment, ongoing support may include bug fixes, performance improvements, monitoring, updates, maintenance, and feature enhancements based on the agreed scope."
+        },
+        {
+            "id": "process_008",
+            "title": "Communication",
+            "content": "Clients receive regular progress updates throughout the project. Communication includes milestone reviews, demonstrations, feedback collection, and discussions about implementation decisions."
+        },
+        {
+            "id": "process_009",
+            "title": "AI Development Workflow",
+            "content": "For AI projects, the workflow includes problem definition, model selection, prompt design where applicable, knowledge preparation, RAG implementation if needed, integration, testing, and deployment."
+        },
+        {
+            "id": "process_010",
+            "title": "Project Completion",
+            "content": "The project is considered complete after agreed deliverables are implemented, tested, and delivered. Documentation and deployment guidance can be provided where included in the project scope."
+        }
+    ],
+    "faqs": [
+        {
+            "question": "How do you start a project?",
+            "answer": "Every project begins with understanding your business goals, technical requirements, data sources, integrations, timeline, and desired outcomes."
+        },
+        {
+            "question": "What is your development process?",
+            "answer": "The process includes Strategy, Architecture, Development, Testing, Deployment, and Support."
+        },
+        {
+            "question": "Do you plan the architecture before coding?",
+            "answer": "Yes. System architecture, database design, APIs, authentication, scalability, and deployment strategy are planned before development."
+        },
+        {
+            "question": "Do you test the application?",
+            "answer": "Yes. Functionality, APIs, authentication, performance, and security are tested before deployment."
+        },
+        {
+            "question": "How do you deploy applications?",
+            "answer": "Applications are containerized with Docker and deployed to cloud platforms such as AWS, Azure, Railway, Render, DigitalOcean, or VPS servers."
+        },
+        {
+            "question": "Do you provide support after deployment?",
+            "answer": "Yes. Post-launch support can include bug fixes, maintenance, monitoring, updates, and feature improvements based on the project agreement."
+        },
+        {
+            "question": "Do you provide project updates?",
+            "answer": "Yes. Progress updates are shared through milestones, demos, and regular communication."
+        },
+        {
+            "question": "How do AI projects work?",
+            "answer": "AI projects include requirement analysis, model selection, knowledge preparation, integration, testing, deployment, and optimization."
+        },
+        {
+            "question": "Can the process be customized?",
+            "answer": "Yes. The development process can be adapted depending on the project's size, complexity, and business requirements."
+        },
+        {
+            "question": "Do you provide documentation?",
+            "answer": "Documentation and deployment guidance can be provided if included in the project scope."
+        }
+    ],
+    "question_variations": [
+        "Development process",
+        "How do you work?",
+        "Project process",
+        "Workflow",
+        "Software process",
+        "How do you develop software?",
+        "Project lifecycle",
+        "How do you build applications?",
+        "Deployment process",
+        "Testing process",
+        "Architecture process",
+        "Support process",
+        "Kaam ka process kya hai?",
+        "Project kaise start karte ho?",
+        "Development process kya hai?",
+        "Software kaise banate ho?",
+        "Workflow batao",
+        "Deployment kaise karte ho?",
+        "Testing karte ho?",
+        "Support dete ho?",
+        "Architecture pehle banate ho?",
+        "Project complete kaise hota hai?",
+        "how work",
+        "project flow",
+        "development flow",
+        "workflow",
+        "software build",
+        "start project",
+        "deploy app",
+        "after launch support",
+        "testing",
+        "architecture"
+    ],
+    "keywords": [
+        "Strategy",
+        "Architecture",
+        "Development",
+        "Testing",
+        "Deployment",
+        "Support",
+        "Software Development Life Cycle",
+        "SDLC",
+        "FastAPI",
+        "Python",
+        "Next.js",
+        "Docker",
+        "AWS",
+        "Azure",
+        "Railway",
+        "Render",
+        "DigitalOcean",
+        "PostgreSQL",
+        "Redis",
+        "REST API",
+        "Authentication",
+        "Cloud Deployment",
+        "Monitoring",
+        "Logging",
+        "Maintenance",
+        "Bug Fixes",
+        "Documentation",
+        "AI Development",
+        "RAG",
+        "Knowledge Base",
+        "Prompt Engineering",
+        "Version Control",
+        "Git",
+        "Scalable Architecture"
+    ]
+}

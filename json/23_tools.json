@@ -1,0 +1,186 @@
+{
+    "file": "23_tools.json",
+    "category": "Tools & Technologies",
+    "version": "1.0",
+    "knowledge": [
+        {
+            "id": "tool_001",
+            "title": "Programming Language",
+            "content": "Python is the primary programming language used for AI development, backend engineering, automation systems, APIs, and SaaS platforms."
+        },
+        {
+            "id": "tool_002",
+            "title": "Backend Framework",
+            "content": "FastAPI is the primary backend framework for building secure, high-performance, asynchronous APIs and backend services."
+        },
+        {
+            "id": "tool_003",
+            "title": "Frontend Framework",
+            "content": "Next.js is used for building modern, responsive, and SEO-friendly web applications and dashboards."
+        },
+        {
+            "id": "tool_004",
+            "title": "Containerization",
+            "content": "Docker is used for containerization, deployment consistency, and scalable application delivery."
+        },
+        {
+            "id": "tool_005",
+            "title": "Caching",
+            "content": "Redis is used for caching, sessions, queues, background jobs, and performance optimization."
+        },
+        {
+            "id": "tool_006",
+            "title": "Database",
+            "content": "PostgreSQL is the primary relational database used for scalable backend applications."
+        },
+        {
+            "id": "tool_007",
+            "title": "Cloud",
+            "content": "Applications can be deployed to AWS and other supported cloud platforms depending on project requirements."
+        },
+        {
+            "id": "tool_008",
+            "title": "Authentication",
+            "content": "Authentication systems support OAuth, JWT, secure login flows, and role-based access control."
+        },
+        {
+            "id": "tool_009",
+            "title": "APIs",
+            "content": "REST APIs are the primary API style. GraphQL can also be implemented when appropriate for the project."
+        },
+        {
+            "id": "tool_010",
+            "title": "AI Integration",
+            "content": "Applications can integrate with OpenAI-compatible models and vector databases to build AI chatbots, AI agents, and Retrieval-Augmented Generation (RAG) systems."
+        },
+        {
+            "id": "tool_011",
+            "title": "Version Control",
+            "content": "Git-based workflows are used for source code management and collaboration."
+        },
+        {
+            "id": "tool_012",
+            "title": "Architecture",
+            "content": "Solutions follow scalable backend architecture, modular code organization, secure APIs, and maintainable software engineering practices."
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Which programming language do you use?",
+            "answer": "Python is the primary programming language used for AI systems, backend development, APIs, and automation."
+        },
+        {
+            "question": "Do you use FastAPI?",
+            "answer": "Yes. FastAPI is the primary backend framework used for high-performance APIs and backend services."
+        },
+        {
+            "question": "Do you use Next.js?",
+            "answer": "Yes. Next.js is used for modern frontend development, dashboards, and web applications."
+        },
+        {
+            "question": "Do you use Docker?",
+            "answer": "Yes. Docker is used for containerization and deployment."
+        },
+        {
+            "question": "Do you use PostgreSQL?",
+            "answer": "Yes. PostgreSQL is the primary relational database used for backend systems."
+        },
+        {
+            "question": "Do you use Redis?",
+            "answer": "Yes. Redis is used for caching, queues, sessions, and performance optimization."
+        },
+        {
+            "question": "Do you deploy on AWS?",
+            "answer": "Yes. AWS deployment is supported where it matches project requirements."
+        },
+        {
+            "question": "Do you build REST APIs?",
+            "answer": "Yes. REST APIs are the primary API architecture used in projects."
+        },
+        {
+            "question": "Do you support GraphQL?",
+            "answer": "GraphQL can be implemented when it is the right fit for the project."
+        },
+        {
+            "question": "Do you build AI applications?",
+            "answer": "Yes. AI chatbots, AI agents, automation systems, and AI SaaS applications are part of the services offered."
+        }
+    ],
+    "question_variations": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "Docker",
+        "Redis",
+        "PostgreSQL",
+        "AWS",
+        "REST API",
+        "GraphQL",
+        "OAuth",
+        "JWT",
+        "Backend",
+        "Frontend",
+        "API",
+        "Cloud",
+        "Database",
+        "AI tools",
+        "Tech stack",
+        "Technology stack",
+        "Development tools",
+        "Python use karte ho?",
+        "FastAPI developer?",
+        "Next.js use karte ho?",
+        "Docker use karte ho?",
+        "Redis use karte ho?",
+        "PostgreSQL use karte ho?",
+        "AWS deployment?",
+        "Backend stack?",
+        "Tech stack kya hai?",
+        "Kaun se tools use karte ho?",
+        "python dev",
+        "fast api",
+        "next js",
+        "docker",
+        "redis",
+        "postgres",
+        "aws",
+        "backend tools",
+        "api tools",
+        "technology"
+    ],
+    "keywords": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "Docker",
+        "Redis",
+        "PostgreSQL",
+        "AWS",
+        "REST API",
+        "GraphQL",
+        "OAuth",
+        "JWT",
+        "Backend",
+        "Frontend",
+        "Cloud",
+        "Containerization",
+        "Caching",
+        "Authentication",
+        "Authorization",
+        "Database",
+        "AI",
+        "Artificial Intelligence",
+        "OpenAI",
+        "Vector Database",
+        "RAG",
+        "Git",
+        "Software Engineering",
+        "Scalable Architecture",
+        "API Development"
+    ],
+    "response_rules": [
+        "Only describe tools and technologies that are present in the portfolio or documented knowledge base.",
+        "Do not claim expertise in technologies that are not listed.",
+        "If a user asks about an unlisted technology, explain that compatibility depends on project requirements and available integrations."
+    ]
+}

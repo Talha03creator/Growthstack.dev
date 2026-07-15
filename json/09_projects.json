@@ -1,0 +1,182 @@
+{
+    "file": "09_projects.json",
+    "category": "Projects & Portfolio",
+    "version": "1.0",
+    "knowledge": [
+        {
+            "id": "project_001",
+            "title": "Portfolio Overview",
+            "content": "GrowthsStack.Dev has built more than 35 software projects, including AI applications, automation systems, backend architectures, APIs, dashboards, and SaaS platforms. The focus is on scalable, AI-powered solutions that solve real business problems."
+        },
+        {
+            "id": "project_002",
+            "title": "MatchAI Resume Analyzer",
+            "content": "MatchAI Resume Analyzer is an AI-powered resume analysis platform. It helps evaluate resumes, compare candidate profiles, and generate intelligent insights to support recruitment workflows. The platform demonstrates AI document processing and structured analysis."
+        },
+        {
+            "id": "project_003",
+            "title": "Lumina AI",
+            "content": "Lumina AI is an AI-powered application focused on intelligent workflows and modern AI capabilities. It demonstrates conversational AI, automation, backend engineering, and scalable architecture."
+        },
+        {
+            "id": "project_004",
+            "title": "FoundrIQ Platform",
+            "content": "FoundrIQ Platform is a scalable platform built with modern backend architecture. It showcases SaaS concepts, user management, APIs, authentication, dashboards, and scalable engineering practices."
+        },
+        {
+            "id": "project_005",
+            "title": "MedAnalyze AI",
+            "content": "MedAnalyze AI is an AI-based healthcare-related application that demonstrates document analysis, AI-assisted workflows, intelligent data processing, and scalable backend systems. Any deployment in regulated healthcare environments should comply with applicable privacy and regulatory requirements."
+        },
+        {
+            "id": "project_006",
+            "title": "AI Chatbots",
+            "content": "GrowthsStack.Dev develops custom AI chatbots for businesses, customer support, lead generation, websites, internal tools, and knowledge bases using OpenAI-compatible models and RAG."
+        },
+        {
+            "id": "project_007",
+            "title": "AI Agents",
+            "content": "Custom AI agents are developed for autonomous workflows, API interactions, document processing, task automation, CRM automation, and business intelligence."
+        },
+        {
+            "id": "project_008",
+            "title": "Backend Systems",
+            "content": "Backend systems include FastAPI applications, REST APIs, authentication systems, PostgreSQL databases, Redis caching, Docker deployment, and cloud infrastructure."
+        },
+        {
+            "id": "project_009",
+            "title": "Automation Systems",
+            "content": "Automation projects connect multiple business systems using APIs, webhooks, AI services, and cloud platforms to eliminate repetitive manual tasks."
+        },
+        {
+            "id": "project_010",
+            "title": "Dashboard Systems",
+            "content": "Dashboard projects provide analytics, reporting, KPIs, user management, AI insights, and business monitoring with responsive interfaces."
+        },
+        {
+            "id": "project_011",
+            "title": "API Architectures",
+            "content": "Projects include secure REST APIs, authentication, webhook integrations, cloud deployment, logging, monitoring, and third-party integrations."
+        },
+        {
+            "id": "project_012",
+            "title": "AI SaaS Platforms",
+            "content": "GrowthsStack.Dev builds scalable AI SaaS platforms with subscriptions, authentication, dashboards, AI features, cloud deployment, and API-first architecture."
+        }
+    ],
+    "faqs": [
+        {
+            "question": "What projects have you built?",
+            "answer": "Projects include MatchAI Resume Analyzer, Lumina AI, FoundrIQ Platform, MedAnalyze AI, AI chatbots, AI agents, automation systems, dashboard platforms, backend APIs, and AI SaaS applications."
+        },
+        {
+            "question": "How many projects have you completed?",
+            "answer": "GrowthsStack.Dev has completed more than 35 software projects."
+        },
+        {
+            "question": "What is MatchAI Resume Analyzer?",
+            "answer": "It is an AI-powered resume analysis platform designed to evaluate resumes and support recruitment workflows."
+        },
+        {
+            "question": "What is Lumina AI?",
+            "answer": "Lumina AI demonstrates conversational AI, automation, backend engineering, and scalable AI-powered application development."
+        },
+        {
+            "question": "What is FoundrIQ Platform?",
+            "answer": "FoundrIQ Platform showcases SaaS development with authentication, dashboards, APIs, and scalable backend architecture."
+        },
+        {
+            "question": "What is MedAnalyze AI?",
+            "answer": "MedAnalyze AI is an AI-assisted healthcare application focused on intelligent document analysis and workflow automation."
+        },
+        {
+            "question": "Can I see your portfolio?",
+            "answer": "Yes. The portfolio highlights AI chatbots, AI agents, automation systems, backend engineering, APIs, dashboard systems, and AI SaaS platforms, including featured case studies like MatchAI Resume Analyzer, Lumina AI, FoundrIQ Platform, and MedAnalyze AI."
+        },
+        {
+            "question": "Do you have AI experience?",
+            "answer": "Yes. More than 20 AI systems have been deployed across chatbots, automation, backend services, AI-assisted workflows, and intelligent software."
+        },
+        {
+            "question": "What industries have you worked with?",
+            "answer": "The portfolio includes work relevant to healthcare, recruitment, startups, SaaS, business automation, and enterprise software."
+        },
+        {
+            "question": "Can you build a project similar to one in your portfolio?",
+            "answer": "Yes. Solutions can be customized based on your business requirements while following scalable engineering practices."
+        }
+    ],
+    "question_variations": [
+        "Show projects",
+        "Portfolio",
+        "Portfolio projects",
+        "Case studies",
+        "Previous work",
+        "Examples",
+        "Work samples",
+        "Project list",
+        "Recent projects",
+        "Featured projects",
+        "What have you built?",
+        "AI projects",
+        "Software projects",
+        "Resume Analyzer",
+        "MatchAI",
+        "Lumina AI",
+        "FoundrIQ",
+        "MedAnalyze AI",
+        "Portfolio dikhao",
+        "Projects dikhao",
+        "Case studies",
+        "Kya projects banaye hain?",
+        "Previous work",
+        "Examples dikhao",
+        "Sample projects",
+        "AI projects",
+        "Software projects",
+        "Resume analyzer project",
+        "show work",
+        "portfolio",
+        "project",
+        "examples",
+        "sample",
+        "case study",
+        "ai work",
+        "resume ai",
+        "chatbot project",
+        "backend project"
+    ],
+    "keywords": [
+        "Portfolio",
+        "Projects",
+        "Case Study",
+        "Software Development",
+        "AI Projects",
+        "MatchAI Resume Analyzer",
+        "Lumina AI",
+        "FoundrIQ Platform",
+        "MedAnalyze AI",
+        "AI Chatbot",
+        "AI Agent",
+        "Automation",
+        "Backend",
+        "FastAPI",
+        "Python",
+        "Docker",
+        "REST API",
+        "Dashboard",
+        "SaaS",
+        "AI SaaS",
+        "Recruitment AI",
+        "Healthcare AI",
+        "Business Automation",
+        "Cloud",
+        "PostgreSQL",
+        "Redis",
+        "Next.js",
+        "OpenAI",
+        "Vector Database",
+        "RAG",
+        "Enterprise Software"
+    ]
+}

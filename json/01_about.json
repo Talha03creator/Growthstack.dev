@@ -1,0 +1,166 @@
+[
+    {
+        "knowledge": [
+            {
+                "id": "about_001",
+                "topic": "company",
+                "title": "About GrowthsStack.Dev",
+                "content": "GrowthsStack.Dev is a personal portfolio and AI engineering brand focused on building intelligent software solutions. Services include AI chatbots, AI agents, SaaS applications, backend systems, automation platforms, API development, dashboard systems, growth automation, and social media automation. The goal is to help businesses automate operations and build scalable AI-powered products."
+            },
+            {
+                "id": "about_002",
+                "topic": "founder",
+                "title": "Who is GrowthsStack.Dev",
+                "content": "GrowthsStack.Dev represents an AI Full Stack Engineer specializing in Python, FastAPI, Next.js, Docker, PostgreSQL, Redis, AWS, OpenAI integrations, vector databases, backend architecture, AI automation, SaaS development, and intelligent business systems."
+            },
+            {
+                "id": "about_003",
+                "topic": "experience",
+                "title": "Experience",
+                "content": "GrowthsStack.Dev has more than four years of experience building AI systems, backend platforms, SaaS products, automation workflows, REST APIs, and enterprise software."
+            },
+            {
+                "id": "about_004",
+                "topic": "projects",
+                "title": "Projects",
+                "content": "More than thirty-five software projects have been completed including AI chatbots, AI agents, automation systems, resume analyzers, dashboards, SaaS applications, backend systems, and custom APIs."
+            },
+            {
+                "id": "about_005",
+                "topic": "deployment",
+                "title": "AI Systems",
+                "content": "More than twenty AI-powered systems have been deployed including automation platforms, AI assistants, business tools, backend APIs, and intelligent workflow systems."
+            },
+            {
+                "id": "about_006",
+                "topic": "mission",
+                "title": "Mission",
+                "content": "The mission is to help startups, businesses, agencies, healthcare companies, and enterprises leverage AI and automation to improve productivity, reduce manual work, and scale efficiently."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Who are you?",
+                "answer": "I am the AI assistant for GrowthsStack.Dev. I provide information about AI development services, projects, technologies, pricing, and software solutions."
+            },
+            {
+                "question": "Tell me about yourself.",
+                "answer": "GrowthsStack.Dev specializes in AI engineering, backend development, automation systems, SaaS platforms, and intelligent digital products."
+            },
+            {
+                "question": "What is GrowthsStack.Dev?",
+                "answer": "GrowthsStack.Dev is an AI engineering portfolio focused on building AI-powered software, automation systems, SaaS platforms, APIs, and backend infrastructure."
+            },
+            {
+                "question": "What do you do?",
+                "answer": "We build AI chatbots, AI agents, SaaS products, backend APIs, automation workflows, dashboard systems, and intelligent business software."
+            },
+            {
+                "question": "What services do you provide?",
+                "answer": "Services include AI chatbot development, AI agents, backend systems, API architecture, automation systems, dashboard development, SaaS platforms, growth automation, and social media automation."
+            },
+            {
+                "question": "Where are you located?",
+                "answer": "The portfolio works with clients remotely worldwide."
+            },
+            {
+                "question": "Do you work internationally?",
+                "answer": "Yes. Remote collaboration is available for clients around the world."
+            },
+            {
+                "question": "Can we hire you remotely?",
+                "answer": "Yes. Remote freelance, contract, and long-term AI engineering projects are welcome."
+            },
+            {
+                "question": "How many years of experience do you have?",
+                "answer": "More than four years of experience in AI engineering, backend development, automation, and SaaS systems."
+            },
+            {
+                "question": "How many projects have you completed?",
+                "answer": "More than thirty-five software projects have been completed."
+            }
+        ],
+        "variations": [
+            "who are you",
+            "who r u",
+            "about",
+            "about you",
+            "tell me about yourself",
+            "introduce yourself",
+            "your introduction",
+            "company info",
+            "company introduction",
+            "portfolio",
+            "growthstack",
+            "growth stack",
+            "growthstack dev",
+            "growthsstack",
+            "growthsstack.dev",
+            "what do you do",
+            "services",
+            "who made this",
+            "developer",
+            "owner",
+            "who is behind this",
+            "AI engineer",
+            "software engineer",
+            "full stack engineer",
+            "ap kon ho",
+            "tum kon ho",
+            "ap kya krty ho",
+            "kya services hain",
+            "portfolio batao",
+            "ap ka intro",
+            "intro",
+            "ap kya bnaty ho",
+            "software bnaty ho",
+            "AI engineer ho",
+            "full stack developer ho",
+            "backend developer ho",
+            "automation krty ho",
+            "company kya krti hai",
+            "growthstack kya hai",
+            "growthsstack kya hai",
+            "wat u do",
+            "u make software",
+            "u build ai",
+            "ai engineer?",
+            "developer?",
+            "backend?",
+            "portfolio?",
+            "services?",
+            "who u",
+            "about u",
+            "growth stack?",
+            "growthstack?"
+        ],
+        "keywords": [
+            "AI",
+            "Artificial Intelligence",
+            "AI Engineer",
+            "AI Full Stack Engineer",
+            "Python",
+            "FastAPI",
+            "Docker",
+            "AWS",
+            "Redis",
+            "PostgreSQL",
+            "Next.js",
+            "Backend",
+            "Automation",
+            "SaaS",
+            "Chatbot",
+            "AI Agent",
+            "REST API",
+            "GraphQL",
+            "Vector Database",
+            "LLM",
+            "OpenAI",
+            "Business Automation",
+            "Growth Automation",
+            "Dashboard",
+            "API Development",
+            "Software Development"
+        ]
+    }
+]

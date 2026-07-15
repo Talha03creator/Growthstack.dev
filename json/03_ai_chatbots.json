@@ -1,0 +1,41 @@
+[
+    {
+        "intent": "services.ai_chatbot",
+        "category": "AI Chatbot",
+        "priority": 1,
+        "keywords": [
+            "AI chatbot",
+            "chatbot",
+            "GPT chatbot",
+            "website chatbot",
+            "OpenAI chatbot",
+            "customer support bot",
+            "chat bot",
+            "chatboat",
+            "chatbot bnaty ho",
+            "AI bot",
+            "website bot",
+            "support bot",
+            "assistant",
+            "AI assistant"
+        ],
+        "knowledge": {
+            "title": "AI Chatbot Development",
+            "content": "GrowthsStack.Dev develops enterprise-grade AI chatbots powered by OpenAI, Claude, Gemini, or local LLMs. Chatbots integrate with websites, WhatsApp, CRMs, APIs, databases, booking systems, payment gateways, and internal business workflows. They support RAG, multilingual conversations, lead generation, appointment booking, customer support, document search, analytics, and human handoff."
+        },
+        "faq": [
+            {
+                "q": "Can you build AI chatbots?",
+                "a": "Yes. We build custom AI chatbots for websites, businesses, customer support, lead generation, and automation."
+            },
+            {
+                "q": "Do you make GPT chatbot?",
+                "a": "Yes. We develop GPT-powered chatbots using OpenAI APIs with custom knowledge bases and integrations."
+            },
+            {
+                "q": "Can chatbot answer from my documents?",
+                "a": "Yes. We implement Retrieval-Augmented Generation (RAG) so the chatbot can answer using your PDFs, DOCX files, websites, FAQs, and internal knowledge."
+            }
+        ]
+    }
+]

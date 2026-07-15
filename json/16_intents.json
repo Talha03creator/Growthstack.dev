@@ -1,0 +1,502 @@
+{
+    "file": "16_intents.json",
+    "category": "Intents & Routing",
+    "version": "1.0",
+    "intents": [
+        {
+            "id": "intent_greeting",
+            "name": "Greeting",
+            "examples": [
+                "hello",
+                "hi",
+                "hey",
+                "good morning",
+                "good evening",
+                "aoa",
+                "assalam o alaikum",
+                "salam",
+                "hello bhai",
+                "hi there",
+                "hey there",
+                "hii",
+                "helo"
+            ],
+            "roman_examples": [
+                "salam",
+                "hello bhai",
+                "aoa",
+                "ap kaisy ho",
+                "kia hal",
+                "hi"
+            ],
+            "broken_examples": [
+                "helo",
+                "hii",
+                "hi",
+                "hey",
+                "hi there",
+                "helo sir"
+            ],
+            "response": "Hello! I'm the GrowthsStack.Dev AI assistant. How can I help you with AI development, automation, SaaS, or backend engineering today?"
+        },
+        {
+            "id": "intent_goodbye",
+            "name": "Goodbye",
+            "examples": [
+                "bye",
+                "goodbye",
+                "allah hafiz",
+                "take care",
+                "see you",
+                "thanks",
+                "thank you"
+            ],
+            "roman_examples": [
+                "bye",
+                "allah hafiz",
+                "shukriya",
+                "thek hai",
+                "done",
+                "ok"
+            ],
+            "broken_examples": [
+                "bye",
+                "by",
+                "bbye",
+                "ok thanks",
+                "thank"
+            ],
+            "response": "You're welcome! If you need help with AI development, automation, or SaaS, feel free to contact GrowthsStack.Dev anytime."
+        },
+        {
+            "id": "intent_about",
+            "name": "About GrowthsStack.Dev",
+            "examples": [
+                "who are you",
+                "about",
+                "about you",
+                "about us",
+                "about growthsstack",
+                "tell me about yourself"
+            ],
+            "roman_examples": [
+                "ap kon ho",
+                "portfolio",
+                "ap ka intro",
+                "ap kya krty ho"
+            ],
+            "broken_examples": [
+                "who u",
+                "about u",
+                "tell about u",
+                "portfolio"
+            ],
+            "response": "GrowthsStack.Dev is an AI engineering portfolio focused on AI chatbots, AI agents, SaaS platforms, backend systems, automation, APIs, and intelligent business software."
+        },
+        {
+            "id": "intent_services",
+            "name": "Services Inquiry",
+            "examples": [
+                "what services do you offer",
+                "services",
+                "what do you do",
+                "your services",
+                "list of services"
+            ],
+            "roman_examples": [
+                "services kya hain",
+                "ap kya bnaty ho",
+                "kya kya services hain",
+                "portfolio"
+            ],
+            "broken_examples": [
+                "u do what",
+                "services",
+                "what u make",
+                "list services"
+            ],
+            "response": "Services include AI chatbot development, AI agents, SaaS platforms, backend development, API architecture, automation systems, dashboards, growth automation, and consulting."
+        },
+        {
+            "id": "intent_ai_chatbot",
+            "name": "AI Chatbot Service",
+            "examples": [
+                "can you build ai chatbot",
+                "need ai chatbot",
+                "chatbot development",
+                "build gpt chatbot",
+                "website chatbot"
+            ],
+            "roman_examples": [
+                "AI chatbot bnaty ho",
+                "chatbot bana do",
+                "chatbot chahiye",
+                "website bot bana do"
+            ],
+            "broken_examples": [
+                "u make chatbot",
+                "need chatbot",
+                "make bot",
+                "chat bot"
+            ],
+            "response": "Yes. Custom AI chatbots can be developed using OpenAI, Claude, Gemini, and other models. They support RAG, business knowledge, lead generation, customer support, and website integration."
+        },
+        {
+            "id": "intent_ai_agent",
+            "name": "AI Agent Service",
+            "examples": [
+                "can you build ai agent",
+                "need ai agent",
+                "ai agent development",
+                "ai automation agent"
+            ],
+            "roman_examples": [
+                "AI agent bnaty ho",
+                "agent bana do",
+                "automation agent chahiye"
+            ],
+            "broken_examples": [
+                "u build agent",
+                "need ai agent",
+                "make agent"
+            ],
+            "response": "Yes. AI agents can be built to automate workflows, connect APIs, process documents, and perform multi-step business tasks autonomously."
+        },
+        {
+            "id": "intent_saas",
+            "name": "SaaS Development",
+            "examples": [
+                "can you build saas",
+                "need saas platform",
+                "saas development",
+                "ai saas product"
+            ],
+            "roman_examples": [
+                "SaaS bnaty ho",
+                "platform bana do",
+                "startup software chahiye"
+            ],
+            "broken_examples": [
+                "u make saas",
+                "need saas",
+                "build platform",
+                "make software"
+            ],
+            "response": "Yes. AI-powered SaaS platforms with authentication, dashboards, subscriptions, APIs, AI features, and cloud deployment can be developed."
+        },
+        {
+            "id": "intent_automation",
+            "name": "Automation Service",
+            "examples": [
+                "can you automate my business",
+                "automation services",
+                "need automation",
+                "workflow automation"
+            ],
+            "roman_examples": [
+                "automation krty ho",
+                "business automate kr do",
+                "manual work automate krna hai"
+            ],
+            "broken_examples": [
+                "u automate",
+                "need automation",
+                "automate work",
+                "make automation"
+            ],
+            "response": "Yes. Business automation, workflow automation, CRM automation, marketing automation, social media automation, and Meta Ads automation are supported."
+        },
+        {
+            "id": "intent_backend",
+            "name": "Backend Development",
+            "examples": [
+                "do you build backend",
+                "backend developer",
+                "python backend",
+                "fastapi backend"
+            ],
+            "roman_examples": [
+                "backend bnaty ho",
+                "Python backend",
+                "FastAPI developer",
+                "server side bana skty ho"
+            ],
+            "broken_examples": [
+                "u build backend",
+                "need backend",
+                "backend dev",
+                "python dev"
+            ],
+            "response": "Yes. Backend systems are built using Python, FastAPI, PostgreSQL, Redis, Docker, REST APIs, and scalable cloud architecture."
+        },
+        {
+            "id": "intent_api",
+            "name": "API Development",
+            "examples": [
+                "do you build api",
+                "rest api",
+                "graphql",
+                "api development"
+            ],
+            "roman_examples": [
+                "API bnaty ho",
+                "REST API bana do",
+                "API integration chahiye"
+            ],
+            "broken_examples": [
+                "u build api",
+                "need api",
+                "rest api",
+                "api dev"
+            ],
+            "response": "Yes. Secure REST APIs, GraphQL where appropriate, authentication, webhooks, and third-party integrations are supported."
+        },
+        {
+            "id": "intent_dashboard",
+            "name": "Dashboard Development",
+            "examples": [
+                "can you build dashboard",
+                "admin panel",
+                "analytics dashboard",
+                "dashboard development"
+            ],
+            "roman_examples": [
+                "dashboard bana do",
+                "admin panel chahiye",
+                "analytics dashboard"
+            ],
+            "broken_examples": [
+                "u build dashboard",
+                "need dashboard",
+                "admin panel",
+                "analytics"
+            ],
+            "response": "Yes. Interactive dashboards with analytics, KPIs, user management, AI insights, and responsive design can be developed."
+        },
+        {
+            "id": "intent_projects",
+            "name": "Projects Inquiry",
+            "examples": [
+                "show me your projects",
+                "portfolio projects",
+                "case studies",
+                "what have you built",
+                "previous work"
+            ],
+            "roman_examples": [
+                "portfolio dikhao",
+                "projects dikhao",
+                "kia banaya hai",
+                "case studies"
+            ],
+            "broken_examples": [
+                "show work",
+                "portfolio",
+                "projects",
+                "examples"
+            ],
+            "response": "Featured projects include MatchAI Resume Analyzer, Lumina AI, FoundrIQ Platform, and MedAnalyze AI. More than 35 software projects have been completed."
+        },
+        {
+            "id": "intent_process",
+            "name": "Development Process",
+            "examples": [
+                "how do you work",
+                "development process",
+                "project lifecycle",
+                "how do you build software"
+            ],
+            "roman_examples": [
+                "kaam ka process",
+                "project kaise krte ho",
+                "development process"
+            ],
+            "broken_examples": [
+                "how work",
+                "process",
+                "development",
+                "how build"
+            ],
+            "response": "The process includes Strategy, Architecture, Development, Testing, Deployment, and Support."
+        },
+        {
+            "id": "intent_pricing",
+            "name": "Pricing Inquiry",
+            "examples": [
+                "how much",
+                "price",
+                "cost",
+                "charges",
+                "budget",
+                "quotation",
+                "estimate"
+            ],
+            "roman_examples": [
+                "kitna charge",
+                "price",
+                "cost",
+                "budget",
+                "quotation"
+            ],
+            "broken_examples": [
+                "how much",
+                "price",
+                "cost",
+                "quote",
+                "budget"
+            ],
+            "response": "Pricing depends on the project scope, features, AI integrations, and timeline. Please share your requirements for a custom quotation."
+        },
+        {
+            "id": "intent_contact",
+            "name": "Contact Inquiry",
+            "examples": [
+                "how can i contact you",
+                "email",
+                "linkedin",
+                "github",
+                "instagram",
+                "reach you"
+            ],
+            "roman_examples": [
+                "email kya hai",
+                "contact kaise",
+                "LinkedIn",
+                "GitHub"
+            ],
+            "broken_examples": [
+                "email",
+                "contact",
+                "linkedin",
+                "github",
+                "insta"
+            ],
+            "response": "Contact via email at moyih50210@gmail.com. You can also connect through the LinkedIn, GitHub, and Instagram profiles listed on the portfolio."
+        },
+        {
+            "id": "intent_technologies",
+            "name": "Technology Stack",
+            "examples": [
+                "what technologies do you use",
+                "tech stack",
+                "technologies",
+                "python fastapi docker"
+            ],
+            "roman_examples": [
+                "technologies kya hain",
+                "tech stack",
+                "Python",
+                "FastAPI",
+                "Docker"
+            ],
+            "broken_examples": [
+                "u use what",
+                "tech",
+                "stack",
+                "tools"
+            ],
+            "response": "Primary technologies include Python, FastAPI, Docker, PostgreSQL, Redis, Next.js, AWS, REST APIs, OAuth, OpenAI integrations, and vector databases."
+        },
+        {
+            "id": "intent_hire",
+            "name": "Hire / Collaboration",
+            "examples": [
+                "can i hire you",
+                "are you available",
+                "freelance",
+                "contract",
+                "long term collaboration"
+            ],
+            "roman_examples": [
+                "ap available ho",
+                "freelance",
+                "hire kr skty hain",
+                "long term"
+            ],
+            "broken_examples": [
+                "u available",
+                "hire",
+                "freelance",
+                "contract"
+            ],
+            "response": "Yes. Remote freelance, contract, and long-term AI engineering collaborations are available. Please share your project requirements."
+        },
+        {
+            "id": "intent_timeline",
+            "name": "Project Timeline",
+            "examples": [
+                "how long does it take",
+                "timeline",
+                "delivery time",
+                "how many weeks"
+            ],
+            "roman_examples": [
+                "kitna time",
+                "delivery",
+                "timeline",
+                "weeks"
+            ],
+            "broken_examples": [
+                "how long",
+                "time",
+                "delivery",
+                "weeks"
+            ],
+            "response": "Timeline depends on the project scope and complexity. After understanding the requirements, an estimated timeline can be discussed."
+        },
+        {
+            "id": "intent_support",
+            "name": "Support Inquiry",
+            "examples": [
+                "do you provide support",
+                "after launch support",
+                "maintenance",
+                "post launch help"
+            ],
+            "roman_examples": [
+                "support milta hai",
+                "maintenance",
+                "post launch support"
+            ],
+            "broken_examples": [
+                "u provide support",
+                "after launch",
+                "maintenance",
+                "help"
+            ],
+            "response": "Yes. Post-launch support, maintenance, monitoring, bug fixes, and feature updates can be arranged based on the project agreement."
+        },
+        {
+            "id": "intent_fallback",
+            "name": "Unknown / Fallback",
+            "examples": [
+                "asdf",
+                "qwerty",
+                "random text",
+                "unclear question"
+            ],
+            "roman_examples": [
+                "kuch samajh nai aaya",
+                "bta do"
+            ],
+            "broken_examples": [
+                "asdf",
+                "random",
+                "not sure",
+                "confused"
+            ],
+            "response": "I couldn't find that information in the current knowledge base. If you have a question about a project or service, please share more details or contact GrowthsStack.Dev."
+        }
+    ],
+    "routing_rules": [
+        "Map detected intent to the most relevant knowledge file.",
+        "If multiple intents match, prefer the most specific one.",
+        "If no intent matches, use the fallback response."
+    ],
+    "language_handling": [
+        "English",
+        "Roman English",
+        "Broken English",
+        "Simple English"
+    ]
+}

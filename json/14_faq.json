@@ -1,0 +1,229 @@
+{
+    "file": "14_faq.json",
+    "category": "Frequently Asked Questions",
+    "version": "1.0",
+    "knowledge": [
+        {
+            "id": "faq_001",
+            "title": "General Information",
+            "content": "GrowthsStack.Dev specializes in AI engineering, backend development, AI chatbots, AI agents, automation systems, APIs, dashboard development, and AI SaaS platforms."
+        },
+        {
+            "id": "faq_002",
+            "title": "Technology",
+            "content": "Primary technologies include Python, FastAPI, Docker, PostgreSQL, Redis, Next.js, AWS, REST APIs, OAuth, OpenAI integrations, and vector databases."
+        },
+        {
+            "id": "faq_003",
+            "title": "Working Style",
+            "content": "Projects follow Strategy, Architecture, Development, Deployment, and Support."
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Who are you?",
+            "answer": "I am the AI assistant for GrowthsStack.Dev. I help answer questions about services, projects, technologies, pricing, and software development."
+        },
+        {
+            "question": "What services do you offer?",
+            "answer": "Services include AI chatbots, AI agents, SaaS platforms, backend systems, APIs, dashboards, automation systems, growth automation, and consulting."
+        },
+        {
+            "question": "Can you build AI chatbots?",
+            "answer": "Yes. Custom AI chatbots can be built for websites, businesses, customer support, lead generation, and knowledge bases."
+        },
+        {
+            "question": "Can you build AI agents?",
+            "answer": "Yes. AI agents can automate workflows, call APIs, process documents, and execute multi-step business tasks."
+        },
+        {
+            "question": "Can you build SaaS products?",
+            "answer": "Yes. Scalable SaaS applications with authentication, dashboards, APIs, AI features, and cloud deployment can be developed."
+        },
+        {
+            "question": "Can you build REST APIs?",
+            "answer": "Yes. Secure REST APIs are developed using Python and FastAPI with authentication, validation, documentation, and scalable architecture."
+        },
+        {
+            "question": "Do you use Python?",
+            "answer": "Yes. Python is the primary language for backend development, AI systems, automation, and APIs."
+        },
+        {
+            "question": "Do you use FastAPI?",
+            "answer": "Yes. FastAPI is the primary backend framework."
+        },
+        {
+            "question": "Can you integrate OpenAI?",
+            "answer": "Yes. OpenAI APIs can be integrated into chatbots, automation systems, AI agents, and SaaS platforms."
+        },
+        {
+            "question": "Do you use Docker?",
+            "answer": "Yes. Docker is used for containerization and deployment."
+        },
+        {
+            "question": "Can you automate my business?",
+            "answer": "Yes. Business workflows can be automated using AI, APIs, webhooks, and cloud integrations."
+        },
+        {
+            "question": "Can you integrate WhatsApp?",
+            "answer": "Yes. WhatsApp Business API integrations are supported where applicable."
+        },
+        {
+            "question": "Do you support cloud deployment?",
+            "answer": "Yes. AWS, Railway, Render, VPS, Azure, and DigitalOcean deployments are supported."
+        },
+        {
+            "question": "Do you provide support after deployment?",
+            "answer": "Yes. Maintenance and support can be provided based on the project agreement."
+        },
+        {
+            "question": "How do I contact you?",
+            "answer": "Email: moyih50210@gmail.com"
+        },
+        {
+            "question": "How much does a project cost?",
+            "answer": "Pricing depends on the project scope, features, AI integrations, and timeline. Please share your requirements for a custom quotation."
+        },
+        {
+            "question": "How long does a project take?",
+            "answer": "The timeline depends on the project scope and technical complexity. Requirements are reviewed before providing an estimate."
+        },
+        {
+            "question": "How many projects have you completed?",
+            "answer": "More than 35 software projects have been completed."
+        },
+        {
+            "question": "Which industries do you work with?",
+            "answer": "Solutions have been developed for healthcare, recruitment, startups, business automation, SaaS, and enterprise software."
+        },
+        {
+            "question": "Can I hire you remotely?",
+            "answer": "Yes. Remote collaboration is available."
+        }
+    ],
+    "question_variations": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening",
+        "who are you",
+        "about",
+        "about you",
+        "portfolio",
+        "services",
+        "pricing",
+        "projects",
+        "contact",
+        "technology",
+        "backend",
+        "automation",
+        "chatbot",
+        "AI chatbot",
+        "AI agent",
+        "SaaS",
+        "dashboard",
+        "API",
+        "FastAPI",
+        "Python",
+        "Docker",
+        "Redis",
+        "AWS",
+        "OpenAI",
+        "GPT",
+        "Claude",
+        "Gemini",
+        "Llama",
+        "DeepSeek",
+        "RAG",
+        "Vector Database",
+        "Deployment",
+        "Support",
+        "hello bhai",
+        "aoa",
+        "assalam o alaikum",
+        "ap kon ho",
+        "portfolio dikhao",
+        "services kya hain",
+        "AI chatbot bnaty ho",
+        "AI agent bnaty ho",
+        "backend developer",
+        "Python developer",
+        "FastAPI developer",
+        "automation krty ho",
+        "WhatsApp automation",
+        "SaaS bnaty ho",
+        "API bana skty ho",
+        "Docker use krty ho",
+        "AWS deployment",
+        "email kya hai",
+        "price kitni hai",
+        "cost",
+        "estimate",
+        "quotation",
+        "hire",
+        "freelancer",
+        "remote work",
+        "u build ai",
+        "u build chatbot",
+        "need chatbot",
+        "need backend",
+        "need api",
+        "need automation",
+        "price",
+        "cost",
+        "quote",
+        "estimate",
+        "email",
+        "contact",
+        "support",
+        "help"
+    ],
+    "keywords": [
+        "AI",
+        "Artificial Intelligence",
+        "Chatbot",
+        "AI Agent",
+        "Automation",
+        "Backend",
+        "Python",
+        "FastAPI",
+        "Docker",
+        "Redis",
+        "PostgreSQL",
+        "Next.js",
+        "REST API",
+        "GraphQL",
+        "Dashboard",
+        "SaaS",
+        "OpenAI",
+        "Claude",
+        "Gemini",
+        "Llama",
+        "DeepSeek",
+        "RAG",
+        "Embeddings",
+        "Vector Database",
+        "Business Automation",
+        "Cloud",
+        "AWS",
+        "Azure",
+        "Railway",
+        "Render",
+        "VPS",
+        "Deployment",
+        "Support",
+        "Portfolio",
+        "Projects",
+        "Pricing",
+        "Contact"
+    ],
+    "response_rules": [
+        "Answer only from the available portfolio knowledge.",
+        "Do not invent projects or client names.",
+        "Do not invent pricing.",
+        "If information is unavailable, politely say it is not listed and invite the user to contact GrowthsStack.Dev.",
+        "Maintain a professional, concise, and helpful tone.",
+        "Support English, Roman English, and common broken English queries."
+    ]
+}

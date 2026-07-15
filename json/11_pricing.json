@@ -1,0 +1,199 @@
+{
+    "file": "11_pricing.json",
+    "category": "Pricing",
+    "version": "1.0",
+    "knowledge": [
+        {
+            "id": "pricing_001",
+            "title": "Pricing Philosophy",
+            "content": "GrowthsStack.Dev provides custom pricing based on project requirements, business goals, technical complexity, AI integrations, automation scope, timelines, and deployment requirements."
+        },
+        {
+            "id": "pricing_002",
+            "title": "Custom Quotes",
+            "content": "Every software project is unique. A quotation is prepared after understanding the project scope, required features, integrations, AI capabilities, infrastructure, and expected deliverables."
+        },
+        {
+            "id": "pricing_003",
+            "title": "Project Factors",
+            "content": "Pricing depends on the number of features, frontend complexity, backend architecture, AI integrations, APIs, authentication, dashboards, cloud deployment, testing, maintenance, and overall project scope."
+        },
+        {
+            "id": "pricing_004",
+            "title": "AI Projects",
+            "content": "AI chatbot, AI agent, RAG, document processing, automation, and LLM-powered solutions are quoted according to the complexity of the implementation and integrations required."
+        },
+        {
+            "id": "pricing_005",
+            "title": "Timeline Impact",
+            "content": "Delivery timelines, urgent deadlines, phased development, and additional requirements can influence project planning and quotation."
+        },
+        {
+            "id": "pricing_006",
+            "title": "Consultation",
+            "content": "Before providing a quotation, project requirements are reviewed to understand objectives, integrations, users, workflows, AI requirements, and deployment preferences."
+        },
+        {
+            "id": "pricing_007",
+            "title": "Maintenance",
+            "content": "Ongoing maintenance, feature updates, monitoring, bug fixes, and technical support can be discussed separately if required."
+        },
+        {
+            "id": "pricing_008",
+            "title": "Enterprise Projects",
+            "content": "Large-scale enterprise systems are quoted individually because architecture, security, compliance, integrations, and scalability requirements vary significantly."
+        },
+        {
+            "id": "pricing_009",
+            "title": "Discovery",
+            "content": "A project discussion helps define the scope before estimating cost. Sharing feature requirements leads to a more accurate quotation."
+        },
+        {
+            "id": "pricing_010",
+            "title": "Proposal",
+            "content": "After gathering requirements, a proposal can outline the scope, estimated timeline, deliverables, and pricing."
+        }
+    ],
+    "faqs": [
+        {
+            "question": "How much does a project cost?",
+            "answer": "Pricing depends on the project scope, required features, AI capabilities, integrations, and timeline. Please share your requirements for a custom quotation."
+        },
+        {
+            "question": "Do you have fixed prices?",
+            "answer": "Projects are generally priced based on their scope and complexity rather than a single fixed price."
+        },
+        {
+            "question": "How much does an AI chatbot cost?",
+            "answer": "The cost depends on factors such as integrations, knowledge base, RAG, multilingual support, deployment, and custom features. Please share your requirements for an estimate."
+        },
+        {
+            "question": "How much does an AI SaaS platform cost?",
+            "answer": "The cost varies based on authentication, dashboards, AI features, subscriptions, APIs, cloud infrastructure, and overall project complexity."
+        },
+        {
+            "question": "How much does backend development cost?",
+            "answer": "Backend pricing depends on APIs, authentication, database design, integrations, deployment, scalability, and project size."
+        },
+        {
+            "question": "Do you charge hourly or per project?",
+            "answer": "The pricing approach depends on the engagement. Project-based or other arrangements can be discussed after understanding the requirements."
+        },
+        {
+            "question": "Do you provide quotations?",
+            "answer": "Yes. After reviewing your project requirements, a custom quotation can be prepared."
+        },
+        {
+            "question": "Can I get a consultation before pricing?",
+            "answer": "Yes. Discussing your requirements helps define the project scope and estimate an appropriate solution."
+        },
+        {
+            "question": "Does maintenance cost extra?",
+            "answer": "Maintenance and ongoing support can be arranged separately if required."
+        },
+        {
+            "question": "How can I get a price estimate?",
+            "answer": "Please share your project goals, required features, integrations, timeline, and any relevant details to receive a tailored estimate."
+        }
+    ],
+    "question_variations": [
+        "Pricing",
+        "Price",
+        "Cost",
+        "Charges",
+        "Budget",
+        "Quotation",
+        "Estimate",
+        "Quote",
+        "Project cost",
+        "Software cost",
+        "AI chatbot price",
+        "AI agent cost",
+        "Automation cost",
+        "Backend price",
+        "API cost",
+        "SaaS cost",
+        "Development charges",
+        "Consultation",
+        "Proposal",
+        "How much?",
+        "Kitna charge karte ho?",
+        "Price kya hai?",
+        "Cost kitni hai?",
+        "Budget kitna lagega?",
+        "Quotation chahiye",
+        "Estimate do",
+        "AI chatbot ki price",
+        "SaaS kitne mein banega?",
+        "Backend ki cost",
+        "API development charges",
+        "Project ka rate",
+        "Software banane ki cost",
+        "Consultation mil sakti hai?",
+        "Project quote",
+        "Pricing batao",
+        "how much",
+        "price",
+        "cost",
+        "quote",
+        "estimate",
+        "charges",
+        "budget",
+        "cheap",
+        "pricing",
+        "rate"
+    ],
+    "keywords": [
+        "Pricing",
+        "Price",
+        "Cost",
+        "Charges",
+        "Budget",
+        "Quotation",
+        "Quote",
+        "Estimate",
+        "Proposal",
+        "Consultation",
+        "AI Chatbot",
+        "AI Agent",
+        "Automation",
+        "Backend",
+        "API",
+        "SaaS",
+        "Project Scope",
+        "Timeline",
+        "Maintenance",
+        "Support",
+        "Enterprise",
+        "Custom Software",
+        "Software Development"
+    ],
+    "response_rules": [
+        "Never invent or guess a fixed price.",
+        "Ask clarifying questions when project scope is unclear.",
+        "Base answers on project complexity and requirements.",
+        "Recommend a consultation for accurate estimates.",
+        "If asked for an exact quote, explain that pricing depends on the agreed scope and deliverables."
+    ],
+    "required_information_for_quote": [
+        "Project type",
+        "Business industry",
+        "Main objective",
+        "Required features",
+        "Frontend requirements",
+        "Backend requirements",
+        "AI features",
+        "Chatbot requirements",
+        "RAG requirements",
+        "Automation requirements",
+        "Third-party integrations",
+        "Payment gateway",
+        "Authentication",
+        "Number of users",
+        "Expected traffic",
+        "Deployment preference",
+        "Timeline",
+        "Budget expectations",
+        "Post-launch support requirements"
+    ]
+}

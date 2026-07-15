@@ -1,0 +1,255 @@
+{
+    "file": "18_spelling_variations.json",
+    "category": "Spelling Variations",
+    "version": "1.0",
+    "spelling_variations": {
+        "GrowthsStack.Dev": [
+            "growthstack",
+            "growth stack",
+            "growthstack.dev",
+            "growthstackdev",
+            "growthsstack",
+            "growths stack",
+            "growths stack dev",
+            "growthstak",
+            "grothstack",
+            "groth stack",
+            "growth stack dev",
+            "growthstack ai",
+            "growthstack developer",
+            "growths dev",
+            "gstack",
+            "gstack"
+        ],
+        "AI": [
+            "ai",
+            "A.I",
+            "artificial intelligence",
+            "artifical intelligence",
+            "artificial inteligence",
+            "artifical inteligence",
+            "artificial-intelligence",
+            "intelligent system",
+            "gen ai",
+            "genai"
+        ],
+        "Chatbot": [
+            "chatbot",
+            "chat bot",
+            "chat-bot",
+            "chatboat",
+            "chat bottt",
+            "chatbt",
+            "chatbo",
+            "chtbot",
+            "cht bot",
+            "chatbots",
+            "AI chatbot",
+            "GPT chatbot",
+            "website chatbot",
+            "support chatbot",
+            "virtual assistant"
+        ],
+        "AI Agent": [
+            "ai agent",
+            "agent",
+            "AI agents",
+            "aiagents",
+            "ai-agent",
+            "ai agnt",
+            "aigent",
+            "agent ai",
+            "automation agent",
+            "smart agent"
+        ],
+        "Python": [
+            "python",
+            "pyhton",
+            "phython",
+            "piton",
+            "pythin",
+            "python3",
+            "python dev",
+            "python backend"
+        ],
+        "FastAPI": [
+            "fastapi",
+            "fast api",
+            "fast-api",
+            "fasapi",
+            "fastappi",
+            "fastap",
+            "fstapi",
+            "fast api"
+        ],
+        "Docker": [
+            "docker",
+            "dockar",
+            "doker",
+            "dokcer",
+            "dockr",
+            "docker compose",
+            "docker-compose"
+        ],
+        "PostgreSQL": [
+            "postgres",
+            "postgresql",
+            "postgress",
+            "postgre",
+            "postgre sql",
+            "postgres sql",
+            "pgsql"
+        ],
+        "Redis": [
+            "redis",
+            "reddis",
+            "redi",
+            "radis",
+            "redis cache"
+        ],
+        "Next.js": [
+            "nextjs",
+            "next js",
+            "next-js",
+            "next",
+            "nextj"
+        ],
+        "OpenAI": [
+            "openai",
+            "open ai",
+            "opnai",
+            "opena",
+            "openai",
+            "chatgpt api",
+            "gpt api",
+            "gpt"
+        ],
+        "Claude": [
+            "claude",
+            "claud",
+            "cloud ai",
+            "claud ai"
+        ],
+        "Gemini": [
+            "gemini",
+            "gemni",
+            "gemeni",
+            "google gemini"
+        ],
+        "DeepSeek": [
+            "deepseek",
+            "deep seek",
+            "deapseek",
+            "deepsek",
+            "deep seek ai"
+        ],
+        "Llama": [
+            "llama",
+            "lama",
+            "llm llama",
+            "meta llama"
+        ],
+        "REST API": [
+            "rest api",
+            "restapi",
+            "rest-api",
+            "api",
+            "apis",
+            "backend api",
+            "restfull api",
+            "restful api"
+        ],
+        "GraphQL": [
+            "graphql",
+            "graph ql",
+            "graph-ql",
+            "grapql",
+            "graph api"
+        ],
+        "Automation": [
+            "automation",
+            "automtion",
+            "automate",
+            "automated",
+            "workflow automation",
+            "business automation",
+            "workflow",
+            "automations"
+        ],
+        "Backend": [
+            "backend",
+            "back end",
+            "back-end",
+            "backend system",
+            "backend developer",
+            "backend dev",
+            "server side"
+        ],
+        "API": [
+            "api",
+            "apis",
+            "API's",
+            "application programming interface",
+            "api integration",
+            "web api"
+        ],
+        "Dashboard": [
+            "dashboard",
+            "dash board",
+            "admin panel",
+            "control panel",
+            "analytics dashboard"
+        ],
+        "SaaS": [
+            "saas",
+            "SaaS",
+            "software as a service",
+            "software service",
+            "subscription software",
+            "cloud software"
+        ],
+        "RAG": [
+            "rag",
+            "RAG",
+            "retrieval augmented generation",
+            "retrieval generation",
+            "vector search",
+            "knowledge base"
+        ],
+        "Vector Database": [
+            "vector db",
+            "vectordb",
+            "vector database",
+            "vector storage",
+            "embedding database",
+            "pinecone",
+            "chromadb",
+            "qdrant",
+            "weaviate"
+        ],
+        "WhatsApp": [
+            "whatsapp",
+            "what's app",
+            "whats app",
+            "wa",
+            "watsapp",
+            "whtsapp"
+        ],
+        "Email": [
+            "email",
+            "e-mail",
+            "mail",
+            "gmail",
+            "mail id",
+            "email id"
+        ],
+        "Portfolio": [
+            "portfolio",
+            "port folio",
+            "work",
+            "projects",
+            "case study",
+            "examples"
+        ]
+    }
+}

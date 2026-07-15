@@ -1,0 +1,236 @@
+[
+    {
+        "knowledge": [
+            {
+                "id": "service_001",
+                "topic": "ai_chatbots",
+                "title": "AI Chatbot Development",
+                "content": "GrowthsStack.Dev builds custom AI chatbots for businesses using OpenAI, GPT models, FastAPI, Python, vector databases, and modern frontend technologies. Chatbots can answer questions, capture leads, provide customer support, integrate with APIs, and automate conversations."
+            },
+            {
+                "id": "service_002",
+                "topic": "ai_agents",
+                "title": "AI Agents",
+                "content": "AI agents are autonomous systems that execute multi-step workflows. They can perform research, call APIs, process documents, interact with databases, automate repetitive work, and assist employees or customers."
+            },
+            {
+                "id": "service_003",
+                "topic": "saas",
+                "title": "AI SaaS Platforms",
+                "content": "GrowthsStack.Dev develops scalable AI SaaS platforms using Python, FastAPI, PostgreSQL, Redis, Docker, AWS, and Next.js. Applications are built with authentication, dashboards, APIs, subscriptions, and AI integrations."
+            },
+            {
+                "id": "service_004",
+                "topic": "automation",
+                "title": "Automation Systems",
+                "content": "Automation systems eliminate repetitive tasks by connecting CRMs, Google Sheets, APIs, webhooks, payment gateways, email services, WhatsApp, and cloud applications."
+            },
+            {
+                "id": "service_005",
+                "topic": "backend",
+                "title": "Backend Development",
+                "content": "Backend systems are built using Python, FastAPI, PostgreSQL, Redis, Docker, JWT authentication, OAuth, REST APIs, GraphQL, and scalable cloud infrastructure."
+            },
+            {
+                "id": "service_006",
+                "topic": "dashboard",
+                "title": "Dashboard Systems",
+                "content": "Custom dashboards display analytics, KPIs, reports, customer information, business insights, and AI-generated recommendations in real time."
+            },
+            {
+                "id": "service_007",
+                "topic": "api",
+                "title": "API Development",
+                "content": "GrowthsStack.Dev develops secure REST APIs and GraphQL APIs with authentication, rate limiting, documentation, logging, and scalable architecture."
+            },
+            {
+                "id": "service_008",
+                "topic": "growth",
+                "title": "Growth Automation",
+                "content": "Growth automation includes lead generation, cold outreach, CRM automation, email sequences, LinkedIn automation, workflow automation, and marketing optimization."
+            },
+            {
+                "id": "service_009",
+                "topic": "social_media",
+                "title": "Social Media Automation",
+                "content": "Social media systems automate content generation, scheduling, publishing, AI captions, hashtag generation, analytics, and workflow management."
+            },
+            {
+                "id": "service_010",
+                "topic": "meta_ads",
+                "title": "Meta Ads Automation",
+                "content": "Meta Ads automation includes campaign creation, optimization, reporting, audience management, AI recommendations, and automated workflows."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Can you build AI chatbots?",
+                "answer": "Yes. GrowthsStack.Dev builds intelligent AI chatbots for websites, businesses, customer support, sales, lead generation, and internal company tools."
+            },
+            {
+                "question": "Do you create AI agents?",
+                "answer": "Yes. AI agents can automate business workflows, perform research, connect with APIs, manage tasks, and execute multi-step processes."
+            },
+            {
+                "question": "Can you build SaaS applications?",
+                "answer": "Yes. We develop scalable SaaS products using Python, FastAPI, Docker, PostgreSQL, Redis, AWS, and Next.js."
+            },
+            {
+                "question": "Do you build APIs?",
+                "answer": "Yes. REST APIs, GraphQL APIs, authentication systems, webhooks, and backend integrations are supported."
+            },
+            {
+                "question": "Can you automate my business?",
+                "answer": "Yes. We automate repetitive business processes including CRM workflows, email automation, WhatsApp automation, data processing, reporting, and API integrations."
+            },
+            {
+                "question": "Do you build dashboards?",
+                "answer": "Yes. Interactive dashboards can display analytics, KPIs, reports, AI insights, and business data."
+            },
+            {
+                "question": "Can you build backend systems?",
+                "answer": "Yes. We specialize in scalable backend architecture using Python, FastAPI, PostgreSQL, Redis, Docker, and cloud infrastructure."
+            },
+            {
+                "question": "Do you provide growth automation?",
+                "answer": "Yes. Services include lead generation, CRM automation, outreach automation, and workflow optimization."
+            },
+            {
+                "question": "Can you automate social media?",
+                "answer": "Yes. We build AI-powered systems that generate content, schedule posts, and automate publishing workflows."
+            },
+            {
+                "question": "Do you automate Meta Ads?",
+                "answer": "Yes. We develop systems that assist with campaign management, reporting, optimization, and AI-powered recommendations."
+            }
+        ],
+        "variations": {
+            "ai_chatbot": [
+                "chatbot",
+                "AI chatbot",
+                "GPT chatbot",
+                "website chatbot",
+                "customer support chatbot",
+                "AI assistant",
+                "chat bot",
+                "chatboat",
+                "website bot",
+                "GPT bot",
+                "OpenAI chatbot",
+                "AI support bot",
+                "virtual assistant",
+                "chatbot bnaty ho",
+                "AI bot bana skty ho",
+                "website chatbot bana do",
+                "GPT chatbot banana hai",
+                "customer support bot",
+                "help desk chatbot",
+                "chatbot developer",
+                "make chatbot",
+                "u build chatbot",
+                "need chatbot",
+                "ai bot",
+                "website AI"
+            ],
+            "automation": [
+                "automation",
+                "workflow automation",
+                "business automation",
+                "API automation",
+                "CRM automation",
+                "Google Sheets automation",
+                "WhatsApp automation",
+                "Zapier",
+                "n8n",
+                "Make.com",
+                "automate business",
+                "automation system",
+                "workflow",
+                "automation krty ho",
+                "business automate",
+                "manual work automate",
+                "automation bana do",
+                "API connect",
+                "workflow bana do",
+                "automate karna hai"
+            ],
+            "backend": [
+                "backend",
+                "backend developer",
+                "FastAPI",
+                "Python backend",
+                "REST API",
+                "GraphQL",
+                "Docker backend",
+                "server",
+                "API",
+                "database",
+                "PostgreSQL",
+                "Redis",
+                "backend bnaty ho",
+                "Python developer",
+                "API developer",
+                "backend engineer",
+                "server side",
+                "backend banana hai"
+            ],
+            "dashboard": [
+                "dashboard",
+                "admin panel",
+                "analytics dashboard",
+                "business dashboard",
+                "CRM dashboard",
+                "dashboard bana do",
+                "admin dashboard",
+                "real time dashboard",
+                "dashboard developer"
+            ],
+            "saas": [
+                "SaaS",
+                "AI SaaS",
+                "software as a service",
+                "subscription platform",
+                "startup software",
+                "SaaS bnaty ho",
+                "startup app",
+                "platform development",
+                "custom SaaS"
+            ]
+        },
+        "keywords": [
+            "AI Chatbot",
+            "OpenAI",
+            "GPT",
+            "Claude",
+            "Gemini",
+            "LLM",
+            "AI Agent",
+            "Automation",
+            "Workflow",
+            "Business Automation",
+            "CRM",
+            "Dashboard",
+            "Backend",
+            "FastAPI",
+            "Python",
+            "Docker",
+            "Redis",
+            "PostgreSQL",
+            "AWS",
+            "Next.js",
+            "REST API",
+            "GraphQL",
+            "OAuth",
+            "JWT",
+            "Webhooks",
+            "Lead Generation",
+            "Growth Automation",
+            "Social Media Automation",
+            "Meta Ads",
+            "Cloud",
+            "Scalable Software",
+            "Enterprise Software",
+            "Custom Software"
+        ]
+    }
+]

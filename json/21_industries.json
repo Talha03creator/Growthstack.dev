@@ -1,0 +1,186 @@
+{
+    "file": "21_industries.json",
+    "category": "Industries",
+    "version": "1.0",
+    "knowledge": [
+        {
+            "id": "industry_001",
+            "title": "Healthcare",
+            "content": "AI-powered solutions for clinics, healthcare providers, medical workflows, document processing, patient support tools, and healthcare software. Any healthcare deployment should comply with applicable privacy and regulatory requirements."
+        },
+        {
+            "id": "industry_002",
+            "title": "Recruitment & HR",
+            "content": "Resume analysis, candidate screening, AI recruitment assistants, interview scheduling, HR automation, onboarding workflows, and recruitment dashboards."
+        },
+        {
+            "id": "industry_003",
+            "title": "Startups",
+            "content": "MVP development, AI SaaS platforms, backend systems, APIs, automation, dashboards, authentication, and scalable cloud applications."
+        },
+        {
+            "id": "industry_004",
+            "title": "SaaS Companies",
+            "content": "Subscription platforms, AI features, authentication, billing integration, dashboards, analytics, cloud deployment, and API-first architecture."
+        },
+        {
+            "id": "industry_005",
+            "title": "E-commerce",
+            "content": "Customer support chatbots, AI search, automation, product recommendations, analytics dashboards, API integrations, and operational workflows."
+        },
+        {
+            "id": "industry_006",
+            "title": "Education",
+            "content": "Learning platforms, AI assistants, document search, knowledge bases, student support tools, analytics dashboards, and automation."
+        },
+        {
+            "id": "industry_007",
+            "title": "Real Estate",
+            "content": "Property inquiry chatbots, lead management, CRM automation, dashboards, appointment scheduling, and AI-assisted customer communication."
+        },
+        {
+            "id": "industry_008",
+            "title": "Finance",
+            "content": "Internal automation, reporting dashboards, secure backend systems, APIs, document workflows, and AI-powered operational tools."
+        },
+        {
+            "id": "industry_009",
+            "title": "Legal",
+            "content": "Document search, AI knowledge assistants, workflow automation, secure document management, and backend systems."
+        },
+        {
+            "id": "industry_010",
+            "title": "Agencies",
+            "content": "AI automation, client dashboards, CRM integrations, social media automation, lead generation workflows, and backend systems."
+        },
+        {
+            "id": "industry_011",
+            "title": "Enterprise",
+            "content": "Scalable backend architecture, AI automation, APIs, dashboards, cloud deployment, authentication, and business process automation."
+        },
+        {
+            "id": "industry_012",
+            "title": "General Business",
+            "content": "Custom AI software, chatbots, automation systems, backend platforms, APIs, SaaS solutions, dashboards, and workflow optimization."
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Which industries do you work with?",
+            "answer": "GrowthsStack.Dev develops AI and software solutions for healthcare, recruitment, startups, SaaS companies, e-commerce, education, real estate, finance, legal, agencies, enterprises, and other businesses."
+        },
+        {
+            "question": "Can you build healthcare software?",
+            "answer": "Yes. AI-powered healthcare workflows, document processing, backend systems, and automation can be developed. Production deployments should follow applicable healthcare regulations."
+        },
+        {
+            "question": "Do you build recruitment software?",
+            "answer": "Yes. Resume analysis, HR automation, candidate screening, AI assistants, and recruitment dashboards are supported."
+        },
+        {
+            "question": "Can you build software for startups?",
+            "answer": "Yes. MVPs, AI SaaS platforms, backend systems, APIs, dashboards, and cloud-native applications can be developed."
+        },
+        {
+            "question": "Can you develop e-commerce solutions?",
+            "answer": "Yes. AI chatbots, automation, analytics dashboards, API integrations, and customer support systems can be developed."
+        },
+        {
+            "question": "Can you build education platforms?",
+            "answer": "Yes. Learning platforms, AI assistants, document search, analytics dashboards, and automation are supported."
+        },
+        {
+            "question": "Can you build real estate software?",
+            "answer": "Yes. Property inquiry chatbots, CRM automation, dashboards, and lead management solutions can be developed."
+        },
+        {
+            "question": "Can you build finance applications?",
+            "answer": "Yes. Secure backend systems, APIs, reporting dashboards, automation, and document workflows can be developed."
+        },
+        {
+            "question": "Do you work with agencies?",
+            "answer": "Yes. AI automation, dashboards, CRM integrations, lead generation workflows, and backend systems can support agencies."
+        },
+        {
+            "question": "Can you build enterprise software?",
+            "answer": "Yes. Enterprise solutions can include scalable backend systems, AI automation, APIs, dashboards, cloud deployment, and secure authentication."
+        }
+    ],
+    "question_variations": [
+        "Industries",
+        "Business domains",
+        "Business types",
+        "Healthcare",
+        "HR",
+        "Recruitment",
+        "Startup",
+        "SaaS",
+        "E-commerce",
+        "Education",
+        "Real Estate",
+        "Finance",
+        "Legal",
+        "Agency",
+        "Enterprise",
+        "Business software",
+        "Healthcare software bana skty ho?",
+        "HR software?",
+        "Recruitment system?",
+        "Startup ke liye software?",
+        "SaaS platform?",
+        "E-commerce automation?",
+        "Education platform?",
+        "Real estate chatbot?",
+        "Finance dashboard?",
+        "Legal AI?",
+        "Agency automation?",
+        "Enterprise backend?",
+        "medical software",
+        "hospital software",
+        "clinic system",
+        "startup app",
+        "business software",
+        "education app",
+        "real estate crm",
+        "legal software",
+        "agency tools",
+        "enterprise app"
+    ],
+    "keywords": [
+        "Healthcare",
+        "Medical",
+        "Clinic",
+        "Hospital",
+        "Recruitment",
+        "HR",
+        "Hiring",
+        "Resume",
+        "Startups",
+        "SaaS",
+        "E-commerce",
+        "Education",
+        "EdTech",
+        "Real Estate",
+        "Finance",
+        "FinTech",
+        "Legal",
+        "Agency",
+        "Enterprise",
+        "Business",
+        "AI",
+        "Automation",
+        "Backend",
+        "API",
+        "Dashboard",
+        "Cloud",
+        "Chatbot",
+        "AI Agent",
+        "Workflow",
+        "CRM"
+    ],
+    "response_rules": [
+        "Do not claim prior experience in an industry unless it is supported by the portfolio.",
+        "Describe the types of solutions that can be developed for the industry.",
+        "If a user asks about a niche industry not listed, explain that custom AI and software solutions can be discussed based on their requirements."
+    ]
+}

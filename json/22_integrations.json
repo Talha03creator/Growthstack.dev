@@ -1,0 +1,209 @@
+{
+    "file": "22_integrations.json",
+    "category": "Integrations",
+    "version": "1.0",
+    "knowledge": [
+        {
+            "id": "integration_001",
+            "title": "AI Providers",
+            "content": "Solutions can integrate with AI providers such as OpenAI, Anthropic Claude, Google Gemini, Meta Llama, DeepSeek, and other compatible language models depending on project requirements."
+        },
+        {
+            "id": "integration_002",
+            "title": "Messaging Platforms",
+            "content": "Applications can integrate with WhatsApp Business API, Telegram, Slack, Discord, Microsoft Teams, and email services for communication and automation."
+        },
+        {
+            "id": "integration_003",
+            "title": "Payment Systems",
+            "content": "Payment integrations can include Stripe and PayPal for subscriptions, one-time payments, invoices, and webhook-driven workflows."
+        },
+        {
+            "id": "integration_004",
+            "title": "Google Services",
+            "content": "Integrations can include Google Sheets, Google Drive, Gmail, Google Calendar, Google OAuth, and other Google APIs where appropriate."
+        },
+        {
+            "id": "integration_005",
+            "title": "Microsoft Services",
+            "content": "Integrations can include Outlook, Microsoft OAuth, OneDrive, and Microsoft Graph APIs where appropriate."
+        },
+        {
+            "id": "integration_006",
+            "title": "CRM Platforms",
+            "content": "CRM integrations can include HubSpot, Salesforce, Zoho CRM, and custom CRM systems."
+        },
+        {
+            "id": "integration_007",
+            "title": "Automation Platforms",
+            "content": "Automation workflows can connect with Zapier, n8n, Make.com, and custom webhook-based systems."
+        },
+        {
+            "id": "integration_008",
+            "title": "Cloud Storage",
+            "content": "Applications can integrate with AWS S3, Google Drive, OneDrive, Dropbox, and similar cloud storage services."
+        },
+        {
+            "id": "integration_009",
+            "title": "Authentication",
+            "content": "Authentication integrations can include Google Login, GitHub Login, Microsoft Login, OAuth, JWT, and role-based access control."
+        },
+        {
+            "id": "integration_010",
+            "title": "Databases",
+            "content": "Supported databases include PostgreSQL, Redis, Supabase, Firebase, MongoDB, MySQL, SQLite, and vector databases such as Pinecone, ChromaDB, Qdrant, and Weaviate."
+        },
+        {
+            "id": "integration_011",
+            "title": "Developer Tools",
+            "content": "Development workflows commonly use GitHub, Docker, REST APIs, GraphQL where appropriate, webhooks, and cloud deployment services."
+        },
+        {
+            "id": "integration_012",
+            "title": "E-commerce",
+            "content": "Depending on project requirements, integrations with Shopify and other commerce platforms can be evaluated if suitable APIs are available."
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Can you integrate OpenAI?",
+            "answer": "Yes. OpenAI APIs can be integrated into chatbots, AI agents, SaaS platforms, automation systems, and backend services."
+        },
+        {
+            "question": "Can you integrate WhatsApp?",
+            "answer": "Yes. WhatsApp Business API can be integrated for customer support, notifications, and automated messaging."
+        },
+        {
+            "question": "Can you integrate Stripe?",
+            "answer": "Yes. Stripe can be integrated for subscriptions, one-time payments, invoices, and webhook-based payment workflows."
+        },
+        {
+            "question": "Can you integrate PayPal?",
+            "answer": "Yes. PayPal payment flows can be integrated where they fit the project requirements."
+        },
+        {
+            "question": "Can you connect Google Sheets?",
+            "answer": "Yes. Google Sheets can be used for data synchronization, reporting, automation, and workflow integration."
+        },
+        {
+            "question": "Can you integrate HubSpot?",
+            "answer": "Yes. HubSpot CRM can be connected for lead management, automation, and customer workflows."
+        },
+        {
+            "question": "Can you integrate Salesforce?",
+            "answer": "Yes. Salesforce integrations can be developed based on project requirements."
+        },
+        {
+            "question": "Can you integrate Zapier or n8n?",
+            "answer": "Yes. Automation platforms such as Zapier, n8n, and Make.com can be connected to streamline workflows."
+        },
+        {
+            "question": "Can you connect databases?",
+            "answer": "Yes. PostgreSQL, Redis, Supabase, Firebase, MongoDB, MySQL, SQLite, and vector databases are supported."
+        },
+        {
+            "question": "Can you integrate Shopify?",
+            "answer": "If the required APIs are available and align with the project goals, Shopify integrations can be evaluated and implemented."
+        }
+    ],
+    "question_variations": [
+        "OpenAI integration",
+        "GPT API",
+        "Claude integration",
+        "Gemini API",
+        "WhatsApp API",
+        "Telegram bot",
+        "Slack integration",
+        "Discord integration",
+        "Stripe",
+        "PayPal",
+        "Google Sheets",
+        "Google Drive",
+        "Gmail API",
+        "Google Calendar",
+        "Microsoft Graph",
+        "Outlook API",
+        "HubSpot",
+        "Salesforce",
+        "Zoho CRM",
+        "Zapier",
+        "n8n",
+        "Make.com",
+        "Webhooks",
+        "Shopify",
+        "REST API",
+        "Database integration",
+        "OpenAI integrate kar sakte ho?",
+        "WhatsApp API chahiye",
+        "Stripe connect karna hai",
+        "Google Sheets automation",
+        "HubSpot integration",
+        "CRM connect karna hai",
+        "Shopify integrate karna hai",
+        "Zapier use karte ho?",
+        "n8n workflow",
+        "Firebase connect",
+        "open ai",
+        "whatsapp",
+        "stripe",
+        "paypal",
+        "google api",
+        "crm",
+        "database",
+        "api connect",
+        "integration",
+        "connect app"
+    ],
+    "keywords": [
+        "OpenAI",
+        "Claude",
+        "Gemini",
+        "Llama",
+        "DeepSeek",
+        "WhatsApp Business API",
+        "Telegram",
+        "Slack",
+        "Discord",
+        "Microsoft Teams",
+        "Stripe",
+        "PayPal",
+        "Google Sheets",
+        "Google Drive",
+        "Gmail",
+        "Google Calendar",
+        "Google OAuth",
+        "Outlook",
+        "Microsoft Graph",
+        "HubSpot",
+        "Salesforce",
+        "Zoho CRM",
+        "Zapier",
+        "n8n",
+        "Make.com",
+        "GitHub",
+        "Docker",
+        "REST API",
+        "GraphQL",
+        "Webhooks",
+        "PostgreSQL",
+        "Redis",
+        "Supabase",
+        "Firebase",
+        "MongoDB",
+        "MySQL",
+        "SQLite",
+        "Pinecone",
+        "ChromaDB",
+        "Qdrant",
+        "Weaviate",
+        "AWS S3",
+        "Dropbox",
+        "OneDrive",
+        "Shopify"
+    ],
+    "response_rules": [
+        "Do not claim an integration has been implemented previously unless it is supported by the portfolio.",
+        "If a service provides documented APIs, explain that integration can be assessed based on project requirements.",
+        "Avoid promising compatibility where API limitations or licensing may apply."
+    ]
+}

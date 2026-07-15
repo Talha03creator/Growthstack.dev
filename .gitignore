@@ -1,14 +1,15 @@
-# OS files
+# Dependency directories
+node_modules/
+
+# OS metadata
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# Editor files
-*.swp
-*.swo
-*~
-.vscode/
-.idea/
+# Environment variables
+.env
+.env.local
 
-# Misc
-*.log
+# Build outputs
+dist/
+build/
+.next/

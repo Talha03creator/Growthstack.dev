@@ -1,0 +1,177 @@
+{
+    "file": "12_contact.json",
+    "category": "Contact Information",
+    "version": "1.0",
+    "knowledge": [
+        {
+            "id": "contact_001",
+            "title": "Get In Touch",
+            "content": "GrowthsStack.Dev welcomes inquiries about AI development, AI chatbots, AI agents, SaaS platforms, backend systems, APIs, automation, consulting, and custom software projects."
+        },
+        {
+            "id": "contact_002",
+            "title": "Email",
+            "content": "Primary Email: moyih50210@gmail.com"
+        },
+        {
+            "id": "contact_003",
+            "title": "LinkedIn",
+            "content": "LinkedIn profile is available through the GrowthsStack.Dev portfolio."
+        },
+        {
+            "id": "contact_004",
+            "title": "GitHub",
+            "content": "GitHub repositories can be viewed through the GrowthsStack.Dev profile."
+        },
+        {
+            "id": "contact_005",
+            "title": "Instagram",
+            "content": "Instagram: @GrowthsStack.Dev"
+        },
+        {
+            "id": "contact_006",
+            "title": "Project Inquiries",
+            "content": "For new projects, please share your business goals, required features, timeline, and any relevant technical details so an appropriate solution can be discussed."
+        },
+        {
+            "id": "contact_007",
+            "title": "Response Process",
+            "content": "Project inquiries are reviewed to understand requirements before discussing technical solutions, timelines, and pricing."
+        },
+        {
+            "id": "contact_008",
+            "title": "Remote Collaboration",
+            "content": "GrowthsStack.Dev works remotely with clients and businesses."
+        },
+        {
+            "id": "contact_009",
+            "title": "Supported Services",
+            "content": "Contact is available for AI chatbots, AI agents, automation systems, backend development, API development, SaaS platforms, dashboards, consulting, and custom software."
+        },
+        {
+            "id": "contact_010",
+            "title": "Consultation",
+            "content": "Initial discussions focus on understanding project goals, technical requirements, AI feasibility, integrations, timelines, and expected outcomes."
+        }
+    ],
+    "faqs": [
+        {
+            "question": "How can I contact you?",
+            "answer": "You can contact GrowthsStack.Dev via email at moyih50210@gmail.com or through the LinkedIn, GitHub, and Instagram profiles listed on the portfolio."
+        },
+        {
+            "question": "What is your email address?",
+            "answer": "The email address is moyih50210@gmail.com."
+        },
+        {
+            "question": "Can I email you?",
+            "answer": "Yes. You can send project inquiries to moyih50210@gmail.com."
+        },
+        {
+            "question": "Do you have LinkedIn?",
+            "answer": "Yes. You can connect through the LinkedIn profile available on the GrowthsStack.Dev portfolio."
+        },
+        {
+            "question": "Do you have GitHub?",
+            "answer": "Yes. GitHub repositories are available through the GrowthsStack.Dev profile."
+        },
+        {
+            "question": "Do you have Instagram?",
+            "answer": "Yes. Instagram: @GrowthsStack.Dev."
+        },
+        {
+            "question": "How do I start a project?",
+            "answer": "Contact via email and share your project idea, business goals, required features, timeline, and any relevant details."
+        },
+        {
+            "question": "Can we schedule a discussion?",
+            "answer": "Yes. Please contact via email with your project requirements, and the next steps can be discussed."
+        },
+        {
+            "question": "Do you work remotely?",
+            "answer": "Yes. GrowthsStack.Dev works remotely with clients."
+        },
+        {
+            "question": "What should I include in my project inquiry?",
+            "answer": "Include your project idea, business goals, required features, AI requirements, integrations, timeline, and any reference material you have."
+        }
+    ],
+    "question_variations": [
+        "Contact",
+        "Email",
+        "Mail",
+        "Reach you",
+        "Get in touch",
+        "Contact information",
+        "How can I contact you?",
+        "How do I reach you?",
+        "Email address",
+        "LinkedIn",
+        "GitHub",
+        "Instagram",
+        "Social links",
+        "Project inquiry",
+        "Consultation",
+        "Let's work together",
+        "Contact kaise karun?",
+        "Email kya hai?",
+        "Mail ID",
+        "LinkedIn profile",
+        "GitHub profile",
+        "Instagram account",
+        "Project discuss karna hai",
+        "Kaise reach karun?",
+        "Consultation chahiye",
+        "Project start karna hai",
+        "email",
+        "mail",
+        "contact",
+        "reach",
+        "linkedin",
+        "github",
+        "insta",
+        "instagram",
+        "connect",
+        "hire"
+    ],
+    "keywords": [
+        "Contact",
+        "Email",
+        "Email Address",
+        "LinkedIn",
+        "GitHub",
+        "Instagram",
+        "Portfolio",
+        "Consultation",
+        "Project Inquiry",
+        "Hire",
+        "Remote",
+        "AI Development",
+        "AI Chatbot",
+        "AI Agent",
+        "Automation",
+        "Backend",
+        "API",
+        "SaaS",
+        "Dashboard",
+        "Custom Software"
+    ],
+    "response_rules": [
+        "Always provide the public email address exactly as listed.",
+        "Do not invent a phone number, WhatsApp number, office address, or meeting link.",
+        "If the user asks for contact methods not listed, explain that only the publicly available contact methods can be shared.",
+        "Encourage the user to include project goals and requirements in their first message."
+    ],
+    "project_inquiry_template": {
+        "business_name": "",
+        "industry": "",
+        "project_type": "",
+        "project_description": "",
+        "required_features": "",
+        "ai_requirements": "",
+        "integrations": "",
+        "timeline": "",
+        "budget": "",
+        "additional_notes": ""
+    }
+}

@@ -1,0 +1,201 @@
+{
+    "file": "06_automation.json",
+    "category": "Automation Systems",
+    "version": "1.0",
+    "knowledge": [
+        {
+            "id": "automation_001",
+            "title": "Automation Systems",
+            "content": "GrowthsStack.Dev builds custom automation systems that eliminate repetitive tasks, reduce manual work, improve efficiency, and connect multiple business applications into intelligent workflows."
+        },
+        {
+            "id": "automation_002",
+            "title": "Business Automation",
+            "content": "Business automation includes customer support, CRM updates, lead management, invoice processing, notifications, scheduling, approvals, reporting, document processing, and workflow automation."
+        },
+        {
+            "id": "automation_003",
+            "title": "Workflow Automation",
+            "content": "Workflow automation connects applications through APIs, webhooks, triggers, conditions, queues, and background workers to automate end-to-end business processes."
+        },
+        {
+            "id": "automation_004",
+            "title": "AI Automation",
+            "content": "AI automation combines large language models with automation workflows to classify data, summarize documents, answer customer questions, generate reports, analyze information, and make intelligent decisions."
+        },
+        {
+            "id": "automation_005",
+            "title": "CRM Automation",
+            "content": "CRM automation includes automatic lead creation, follow-ups, reminders, customer segmentation, email sequences, pipeline updates, and sales notifications."
+        },
+        {
+            "id": "automation_006",
+            "title": "Marketing Automation",
+            "content": "Marketing automation includes email campaigns, lead nurturing, social media scheduling, content publishing, analytics, and customer engagement workflows."
+        },
+        {
+            "id": "automation_007",
+            "title": "Social Media Automation",
+            "content": "Social media automation supports AI-generated content, caption creation, hashtag generation, scheduling, publishing, analytics, and multi-platform management."
+        },
+        {
+            "id": "automation_008",
+            "title": "Meta Ads Automation",
+            "content": "Meta Ads automation includes campaign management, reporting, audience targeting, budget monitoring, performance analytics, and automated optimization."
+        },
+        {
+            "id": "automation_009",
+            "title": "API Integrations",
+            "content": "Automation systems integrate with REST APIs, GraphQL APIs, webhooks, CRMs, payment gateways, cloud services, and third-party platforms."
+        },
+        {
+            "id": "automation_010",
+            "title": "Supported Integrations",
+            "content": "Supported integrations include OpenAI, WhatsApp Business API, Telegram, Slack, Discord, Gmail, Outlook, Google Sheets, Notion, Airtable, Stripe, PayPal, Shopify, HubSpot, Salesforce, Zapier, n8n, Make.com, and custom APIs."
+        },
+        {
+            "id": "automation_011",
+            "title": "Document Automation",
+            "content": "Automation can extract text from PDFs, invoices, forms, Word documents, Excel files, and scanned documents using OCR and AI."
+        },
+        {
+            "id": "automation_012",
+            "title": "Deployment",
+            "content": "Automation systems are deployed using Docker, FastAPI, cloud servers, VPS, AWS, Azure, Railway, Render, and DigitalOcean."
+        }
+    ],
+    "faqs": [
+        {
+            "question": "What automation services do you provide?",
+            "answer": "GrowthsStack.Dev provides business automation, AI automation, workflow automation, CRM automation, marketing automation, document automation, API integrations, and social media automation."
+        },
+        {
+            "question": "Can you automate my business?",
+            "answer": "Yes. We design custom automation systems that reduce manual work, connect your software, and streamline business operations."
+        },
+        {
+            "question": "Can you automate CRM workflows?",
+            "answer": "Yes. CRM automation includes lead management, follow-ups, reminders, customer updates, notifications, and reporting."
+        },
+        {
+            "question": "Can you automate emails?",
+            "answer": "Yes. Email automation includes welcome emails, follow-ups, reminders, marketing campaigns, and notifications."
+        },
+        {
+            "question": "Can you automate WhatsApp?",
+            "answer": "Yes. WhatsApp Business API can be integrated for customer support, notifications, lead generation, and automated messaging."
+        },
+        {
+            "question": "Can you automate Google Sheets?",
+            "answer": "Yes. Google Sheets can automatically receive data, update records, generate reports, and trigger workflows."
+        },
+        {
+            "question": "Can you integrate OpenAI?",
+            "answer": "Yes. OpenAI can be integrated into automation workflows for AI-powered responses, document processing, summarization, and intelligent decision making."
+        },
+        {
+            "question": "Can you automate document processing?",
+            "answer": "Yes. Documents such as PDFs, invoices, forms, and spreadsheets can be automatically analyzed, classified, summarized, and stored."
+        },
+        {
+            "question": "Can you automate social media posting?",
+            "answer": "Yes. AI can generate captions, hashtags, schedule posts, publish content, and track analytics."
+        },
+        {
+            "question": "Can you automate Meta Ads?",
+            "answer": "Yes. Campaign monitoring, reporting, budget tracking, and optimization workflows can be automated."
+        }
+    ],
+    "question_variations": [
+        "Automation",
+        "Business automation",
+        "Workflow automation",
+        "AI automation",
+        "CRM automation",
+        "Marketing automation",
+        "Email automation",
+        "WhatsApp automation",
+        "Google Sheets automation",
+        "API automation",
+        "Automation system",
+        "Need automation",
+        "Build automation",
+        "Business workflow",
+        "Can you automate my business?",
+        "Can you connect APIs?",
+        "Can you automate reports?",
+        "Can you automate emails?",
+        "Can you automate notifications?",
+        "Can you automate customer support?",
+        "Automation krty ho?",
+        "Business automate kr skty ho?",
+        "Workflow automation chahiye",
+        "CRM automation",
+        "WhatsApp automate krna hai",
+        "Google Sheet automation",
+        "API connect krna hai",
+        "Email automation",
+        "Lead automation",
+        "Manual work automate krna hai",
+        "Automation system banana hai",
+        "u do automation",
+        "need automation",
+        "automate work",
+        "crm automate",
+        "email automate",
+        "AI automation",
+        "workflow",
+        "api integration",
+        "automation developer",
+        "automation engineer"
+    ],
+    "keywords": [
+        "Automation",
+        "Workflow Automation",
+        "Business Automation",
+        "AI Automation",
+        "CRM",
+        "HubSpot",
+        "Salesforce",
+        "Lead Generation",
+        "Email Automation",
+        "WhatsApp Business API",
+        "Telegram",
+        "Slack",
+        "Discord",
+        "Google Sheets",
+        "Notion",
+        "Airtable",
+        "Zapier",
+        "n8n",
+        "Make.com",
+        "REST API",
+        "GraphQL",
+        "Webhooks",
+        "FastAPI",
+        "Python",
+        "Docker",
+        "Redis",
+        "PostgreSQL",
+        "AWS",
+        "Azure",
+        "Railway",
+        "Render",
+        "DigitalOcean",
+        "OpenAI",
+        "Claude",
+        "Gemini",
+        "Llama",
+        "DeepSeek",
+        "OCR",
+        "Document Processing",
+        "Invoice Automation",
+        "Reporting",
+        "Analytics",
+        "Notifications",
+        "Scheduling",
+        "Social Media Automation",
+        "Meta Ads",
+        "Automation Systems"
+    ]
+}

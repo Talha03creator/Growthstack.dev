@@ -1,0 +1,48 @@
+{
+    "file": "19_conversations.json",
+    "version": "1.0",
+    "conversations": [
+        {
+            "id": "conv_001",
+            "intent": "greeting",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "Hi"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Hello! Welcome to GrowthsStack.Dev. How can I help you with AI development, automation, SaaS, or backend engineering today?"
+                }
+            ]
+        },
+        {
+            "id": "conv_002",
+            "intent": "services",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "What services do you offer?"
+                },
+                {
+                    "role": "assistant",
+                    "content": "GrowthsStack.Dev provides AI chatbots, AI agents, AI SaaS platforms, backend development, APIs, automation systems, dashboards, and consulting."
+                }
+            ]
+        },
+        {
+            "id": "conv_003",
+            "intent": "roman_english",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "AI chatbot bnaty ho?"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Ji haan. Main custom AI chatbots develop karta hoon jo websites, customer support, lead generation, aur business automation ke liye tayyar kiye ja sakte hain."
+                }
+            ]
+        }
+    ]
+}

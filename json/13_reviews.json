@@ -1,0 +1,128 @@
+{
+    "file": "13_reviews.json",
+    "category": "Reviews & Testimonials",
+    "version": "1.0",
+    "knowledge": [
+        {
+            "id": "reviews_001",
+            "title": "Client Satisfaction",
+            "content": "GrowthsStack.Dev aims to deliver high-quality AI solutions, scalable software, automation systems, and professional client communication throughout every project."
+        },
+        {
+            "id": "reviews_002",
+            "title": "Portfolio Testimonials",
+            "content": "The portfolio contains testimonial examples highlighting positive experiences with AI automation, backend engineering, chatbot development, and software delivery. If testimonials are placeholders or examples, they should not be presented as verified client identities."
+        },
+        {
+            "id": "reviews_003",
+            "title": "Quality Focus",
+            "content": "Projects prioritize clean architecture, maintainability, security, scalability, documentation, and long-term business value."
+        },
+        {
+            "id": "reviews_004",
+            "title": "Professional Communication",
+            "content": "Clients receive regular updates, milestone reviews, transparent communication, and collaborative development throughout the project lifecycle."
+        },
+        {
+            "id": "reviews_005",
+            "title": "Support",
+            "content": "Support can include bug fixes, optimization, maintenance, monitoring, and future feature development depending on the agreed scope."
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Do you have client reviews?",
+            "answer": "Yes. The portfolio includes testimonials highlighting positive feedback about AI automation, chatbot development, backend engineering, and software quality."
+        },
+        {
+            "question": "Can I read testimonials?",
+            "answer": "Yes. Testimonials are available in the portfolio. If any displayed testimonials are placeholders or sample content, they should not be treated as verified client identities."
+        },
+        {
+            "question": "What do clients usually appreciate?",
+            "answer": "Common feedback focuses on code quality, AI expertise, backend engineering, communication, timely delivery, and scalable solutions."
+        },
+        {
+            "question": "Do clients recommend your work?",
+            "answer": "The portfolio presents positive testimonial examples regarding software quality and AI development services."
+        },
+        {
+            "question": "What is your client satisfaction goal?",
+            "answer": "The goal is to deliver reliable software, clear communication, and solutions that meet project requirements."
+        },
+        {
+            "question": "Do you provide post-launch support?",
+            "answer": "Support can be provided depending on the agreed project scope."
+        },
+        {
+            "question": "Why do clients choose GrowthsStack.Dev?",
+            "answer": "Clients typically look for AI expertise, scalable backend systems, automation, custom software development, and modern engineering practices."
+        },
+        {
+            "question": "Can I contact previous clients?",
+            "answer": "Only if references are explicitly available and permission has been given. Otherwise, client privacy is respected."
+        },
+        {
+            "question": "Do you have case studies?",
+            "answer": "Yes. The portfolio includes featured projects such as MatchAI Resume Analyzer, Lumina AI, FoundrIQ Platform, and MedAnalyze AI."
+        },
+        {
+            "question": "How do you ensure quality?",
+            "answer": "Quality is maintained through planning, clean architecture, testing, documentation, secure development, and continuous communication."
+        }
+    ],
+    "question_variations": [
+        "Reviews",
+        "Review",
+        "Testimonials",
+        "Client feedback",
+        "Customer feedback",
+        "What do clients say?",
+        "Client reviews",
+        "Success stories",
+        "Recommendations",
+        "Ratings",
+        "Portfolio reviews",
+        "Reviews dikhao",
+        "Testimonials",
+        "Client feedback",
+        "Customers kya kehte hain?",
+        "Review hai?",
+        "Portfolio feedback",
+        "Client experience",
+        "Recommendation",
+        "review",
+        "reviews",
+        "testimonial",
+        "feedback",
+        "client",
+        "rating",
+        "recommendation",
+        "customer review",
+        "success story",
+        "experience"
+    ],
+    "keywords": [
+        "Reviews",
+        "Testimonials",
+        "Client Feedback",
+        "Customer Feedback",
+        "Software Quality",
+        "AI Development",
+        "Backend Engineering",
+        "Automation",
+        "Chatbot Development",
+        "Client Satisfaction",
+        "Communication",
+        "Support",
+        "Case Studies",
+        "Portfolio",
+        "Professional Services"
+    ],
+    "response_rules": [
+        "Do not identify placeholder testimonials as verified real clients.",
+        "Do not invent ratings, awards, or client names.",
+        "If asked for references, only mention publicly available references with permission.",
+        "Focus responses on project quality, engineering practices, and portfolio case studies."
+    ]
+}
