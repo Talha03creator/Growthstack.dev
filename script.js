@@ -356,7 +356,8 @@ const projects = [
         tags: ['Next.js', 'Vercel', 'AI Analytics', 'Tailwind'],
         link: 'https://talha-ai-resume-matcher.vercel.app/', github: '#',
         image: 'images/matchai.png',
-        webp: 'images/matchai.webp'
+        webp: 'images/matchai.webp',
+        altText: 'UI preview of the analyzer application'
     },
     {
         cat: 'AI Computer Vision', title: 'Lumina AI',
@@ -366,7 +367,8 @@ const projects = [
         tags: ['Next.js', 'Vercel', 'AI Vision', 'Tailwind'],
         link: 'https://talha-ai-image-enhancer.vercel.app/', github: '#',
         image: 'images/lumina.png',
-        webp: 'images/lumina.webp'
+        webp: 'images/lumina.webp',
+        altText: 'Interface screenshot of the software'
     },
     {
         cat: 'AI Dashboards', title: 'FoundrIQ Platform',
@@ -376,7 +378,8 @@ const projects = [
         tags: ['Next.js', 'Vercel', 'OpenAI', 'Tailwind'],
         link: 'https://foundriq-platform-myvj.vercel.app/', github: '#',
         image: 'images/foundriq.png',
-        webp: 'images/foundriq.webp'
+        webp: 'images/foundriq.webp',
+        altText: 'Dashboard view of the platform'
     },
     {
         cat: 'Healthcare AI', title: 'MedAnalyze AI',
@@ -386,7 +389,8 @@ const projects = [
         tags: ['FastAPI', 'NLP', 'Docker', 'React'],
         link: 'https://ai-medical-report-analyzer-project.vercel.app/', github: '#',
         image: 'images/medanalyze.png',
-        webp: 'images/medanalyze.webp'
+        webp: 'images/medanalyze.webp',
+        altText: 'Application preview dashboard'
     }
 ];
 
@@ -420,7 +424,7 @@ projects.forEach(p => {
     const imageHTML = p.image
         ? `<picture>
             <source srcset="${p.webp}" type="image/webp">
-            <img src="${p.image}" alt="${p.title}" class="p-img" loading="lazy" decoding="async" width="280" height="150">
+            <img src="${p.image}" alt="${p.altText || p.title}" class="p-img" loading="lazy" decoding="async" width="280" height="150">
            </picture>`
         : `<i class="fas fa-laptop-code"></i>`;
 
