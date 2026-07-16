@@ -448,7 +448,7 @@ reviews.forEach(r => {
             <div class="review-header">
                 <div class="avatar">${r.name.charAt(0)}</div>
                 <div>
-                    <h4 style="font-size:15px;">${r.name}</h4>
+                    <p class="review-title" style="font-size:15px; font-weight:600; margin-bottom:5px; margin-top:0;">${r.name}</p>
                     <div class="stars">★★★★★</div>
                 </div>
             </div>
