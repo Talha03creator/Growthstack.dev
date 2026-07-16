@@ -16,10 +16,10 @@ if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
 function initCinematicEntrance() {
     if (typeof gsap === 'undefined') return;
     gsap.to([".hero-title", ".hero-subtitle", ".hero-buttons", ".code-typing-widget", ".hero-stats"], {
-        y: 0, 
-        opacity: 1, 
-        duration: 0.9, 
-        ease: "expo.out", 
+        y: 0,
+        opacity: 1,
+        duration: 0.9,
+        ease: "expo.out",
         stagger: 0.15
     });
 }
@@ -29,14 +29,14 @@ function initCinematicScroll() {
     if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
     const scrollTl = gsap.timeline({
         scrollTrigger: {
-            trigger: "#hero", 
-            start: "top top", 
-            end: "bottom top", 
-            scrub: 0.7 
+            trigger: "#hero",
+            start: "top top",
+            end: "bottom top",
+            scrub: 0.7
         }
     });
     scrollTl.to(".hero-content", { scale: 0.85, y: -50, opacity: 0, ease: "none" })
-            .to("#services", { scale: 1, opacity: 1, ease: "none", clearProps: "transform" }, "<");
+        .to("#services", { scale: 1, opacity: 1, ease: "none", clearProps: "transform" }, "<");
 }
 
 // ==========================================
@@ -44,15 +44,15 @@ function initCinematicScroll() {
 // ==========================================
 function hidePreloader() {
     const preloader = document.getElementById('preloader');
-    if(preloader && !preloader.classList.contains('hidden')) {
+    if (preloader && !preloader.classList.contains('hidden')) {
         preloader.classList.add('hidden');
         document.body.classList.remove('no-scroll');
         initAnimations();
         initTerminalTyping();
-        
+
         // 🚨 Trigger Cinematic Animations after Preloader hides
-        initCinematicEntrance(); 
-        initCinematicScroll();   
+        initCinematicEntrance();
+        initCinematicScroll();
     }
 }
 
@@ -127,7 +127,7 @@ let mouseX = 0, mouseY = 0;
 document.addEventListener('mousemove', (e) => {
     mouseX = e.clientX;
     mouseY = e.clientY;
-    
+
     // Smooth cursor follow
     gsap.to(cursorGlow, {
         x: mouseX,
@@ -135,7 +135,7 @@ document.addEventListener('mousemove', (e) => {
         duration: 0.1,
         ease: "power2.out"
     });
-    
+
     // Ambient light follow
     gsap.to(ambientLight, {
         x: mouseX,
@@ -401,7 +401,7 @@ const reviews = [
 
 // Populate Services
 const sGrid = document.querySelector('.services-grid');
-if(sGrid) {
+if (sGrid) {
     sGrid.innerHTML = ''; // Clear previous content
     services.forEach(s => {
         // Render as SEO-friendly <a> tags pointing to dedicated service pages
@@ -483,34 +483,34 @@ function initAnimations() {
 
     // Safety: Ignore hero elements if they accidentally have data-animate
     const elements = document.querySelectorAll('[data-animate]:not(.hero-title):not(.hero-subtitle):not(.hero-buttons):not(.hero-stats)');
-    
+
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 const delay = entry.target.getAttribute('data-delay') || 0;
-                
+
                 setTimeout(() => {
                     if (typeof gsap !== 'undefined') {
                         gsap.fromTo(entry.target,
-                            {y: 24, opacity: 0},
-                            {y: 0, opacity: 1, duration: 0.5, ease: "power2.out", force3D: true}
+                            { y: 24, opacity: 0 },
+                            { y: 0, opacity: 1, duration: 0.5, ease: "power2.out", force3D: true }
                         );
                     }
                     entry.target.style.opacity = 1;
                 }, delay);
-                
+
                 observer.unobserve(entry.target);
             }
         });
     }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
-    
+
     elements.forEach(el => observer.observe(el));
 
     // Stats Counters
     const counters = document.querySelectorAll('.stat-number');
     const statObserver = new IntersectionObserver(entries => {
         entries.forEach(entry => {
-            if(entry.isIntersecting) {
+            if (entry.isIntersecting) {
                 const target = +entry.target.getAttribute('data-count');
                 if (typeof gsap !== 'undefined') {
                     gsap.to(entry.target, {
@@ -536,44 +536,44 @@ function initAnimations() {
 // ==========================================
 function initTerminalTyping() {
     const term = document.getElementById('terminal-body');
-    if(!term) return;
-    
+    if (!term) return;
+
     const lines = [
         "> Initializing GrowthsStack.Dev AI Stack...",
         "> Loading: Python · FastAPI · Docker · Redis",
         "> Connecting: Vector Databases · LLM APIs",
         "> Status: All systems operational <span style='color:#27c93f'>✓</span>"
     ];
-    
+
     let currentLine = 0;
-    
+
     function typeLine() {
-        if(currentLine >= lines.length) return;
-        
+        if (currentLine >= lines.length) return;
+
         const div = document.createElement('div');
         div.style.marginBottom = '8px';
         term.appendChild(div);
-        
+
         let text = lines[currentLine];
         let charIndex = 0;
-        
+
         // Quick simulate typing
         div.innerHTML = text; // Just paste it instantly for performance, but stagger lines
         if (typeof gsap !== 'undefined') {
-            gsap.from(div, {opacity: 0, x: -10, duration: 0.2});
+            gsap.from(div, { opacity: 0, x: -10, duration: 0.2 });
         }
-        
+
         currentLine++;
         setTimeout(typeLine, 800);
     }
-    
+
     const termObserver = new IntersectionObserver(entries => {
-        if(entries[0].isIntersecting) {
+        if (entries[0].isIntersecting) {
             typeLine();
             termObserver.disconnect();
         }
     }, { threshold: 0.5 });
-    
+
     termObserver.observe(document.querySelector('.terminal-ui'));
 }
 
@@ -590,7 +590,7 @@ const chatSendBtn = document.getElementById('chat-send-btn');
 // ==========================================
 // ENTERPRISE 25-NODE KNOWLEDGE GRAPH RAG
 // ==========================================
-let portfolioKB = []; 
+let portfolioKB = [];
 let isKBLoaded = false;
 
 // Complete 25-File Knowledge Structure
@@ -612,7 +612,7 @@ const knowledgeModules = [
 async function loadKnowledgeBase() {
     if (!isKBLoaded) {
         try {
-            const fetchPromises = knowledgeModules.map(modulePath => 
+            const fetchPromises = knowledgeModules.map(modulePath =>
                 fetch(modulePath).then(async res => {
                     if (!res.ok) return [];
                     try {
@@ -627,10 +627,10 @@ async function loadKnowledgeBase() {
                                     extracted.push({ text: kws.toLowerCase(), answer: item.answer });
                                 }
                             });
-                        } 
+                        }
                         // 2. Handle Complex Nested Structure (faqs, knowledge, variations)
                         else if (typeof rawData === 'object' && rawData !== null) {
-                            
+
                             // Consolidate global variations and keywords
                             let globalText = "";
                             if (rawData.variations) {
@@ -687,8 +687,8 @@ function toggleChat() {
         loadKnowledgeBase(); // Fetches the 2000+ Q&A file only when opened
     }
 }
-if(chatToggleBtn) chatToggleBtn.addEventListener('click', toggleChat);
-if(closeChatBtn) closeChatBtn.addEventListener('click', toggleChat);
+if (chatToggleBtn) chatToggleBtn.addEventListener('click', toggleChat);
+if (closeChatBtn) closeChatBtn.addEventListener('click', toggleChat);
 
 // Deep Padded String Retrieval Logic
 function retrieveRAGAnswer(query) {
@@ -699,7 +699,7 @@ function retrieveRAGAnswer(query) {
 
     // Filter out very short words like 'is', 'to' to stop false positive matches
     const queryWords = nQuery.split(' ').filter(w => w.length > 2);
-    
+
     let bestMatch = "I am the AI built by Muhammad Talha Ansari. I couldn't find an exact match in my data, but you can reach him directly via the contact form!";
     let maxScore = 0;
 
@@ -710,7 +710,7 @@ function retrieveRAGAnswer(query) {
 
         // 1. Direct Full Phrase Match (Super High Priority for exact sentences like "ap kon ho")
         if (paddedDocText.includes(" " + nQuery + " ")) {
-            score += 50; 
+            score += 50;
         }
 
         // 2. Cumulative Word-by-Word Scoring
@@ -723,9 +723,9 @@ function retrieveRAGAnswer(query) {
         }
 
         // Require at least a strong match (score >= 5) to override the default fallback
-        if (score > maxScore && score >= 5) { 
-            maxScore = score; 
-            bestMatch = doc.answer; 
+        if (score > maxScore && score >= 5) {
+            maxScore = score;
+            bestMatch = doc.answer;
         }
     }
 
@@ -781,7 +781,7 @@ if (chatSendBtn && chatInput) {
 const starRating = document.getElementById('starRating');
 let currentRating = 5;
 
-if(starRating) {
+if (starRating) {
     const stars = starRating.querySelectorAll('i');
     stars.forEach(star => {
         star.classList.add('active'); // Default 5
@@ -798,15 +798,15 @@ document.getElementById('reviewForm').addEventListener('submit', e => {
     e.preventDefault();
     const btn = e.target.querySelector('button');
     const origText = btn.innerText;
-    
+
     btn.innerText = "Submitting...";
-    
+
     setTimeout(() => {
         btn.innerText = "Review Added! ✓";
         btn.style.background = "var(--green)";
         e.target.reset();
-        stars.forEach(s=>s.classList.add('active'));
-        
+        stars.forEach(s => s.classList.add('active'));
+
         setTimeout(() => {
             btn.innerText = origText;
             btn.style.background = "var(--gradient-main)";
@@ -833,18 +833,18 @@ function updateRadar(index) {
     // Remove active classes
     radarBtns.forEach(btn => btn.classList.remove('active'));
     radarNodes.forEach(node => node.classList.remove('active'));
-    
+
     // Add active to current
     document.querySelector(`.radar-btn[data-index="${index}"]`).classList.add('active');
     document.querySelector(`.r-node[data-index="${index}"]`).classList.add('active');
-    
+
     // Animate Text Change smoothly
     if (typeof gsap !== 'undefined') {
         gsap.to(radarDesc, {
-            opacity: 0, y: 10, duration: 0.2, 
+            opacity: 0, y: 10, duration: 0.2,
             onComplete: () => {
                 radarDesc.innerText = radarData[index];
-                gsap.to(radarDesc, {opacity: 1, y: 0, duration: 0.3});
+                gsap.to(radarDesc, { opacity: 1, y: 0, duration: 0.3 });
             }
         });
     } else {
@@ -869,7 +869,7 @@ document.querySelectorAll('.faq-card').forEach(card => {
     card.addEventListener('click', () => {
         const body = card.querySelector('.faq-body');
         const isActive = card.classList.contains('active');
-        
+
         // Close all active cards first (Accordion Style)
         document.querySelectorAll('.faq-card').forEach(c => {
             c.classList.remove('active');
@@ -881,13 +881,80 @@ document.querySelectorAll('.faq-card').forEach(card => {
             card.classList.add('active');
             // Explicitly set dynamic max-height for ultra-smooth rendering
             body.style.maxHeight = body.scrollHeight + "px";
-            
+
             if (typeof gsap !== 'undefined') {
-                gsap.fromTo(card.querySelector('.faq-content'), 
-                    { opacity: 0, y: -10 }, 
+                gsap.fromTo(card.querySelector('.faq-content'),
+                    { opacity: 0, y: -10 },
                     { opacity: 1, y: 0, duration: 0.35, ease: "power2.out" }
                 );
             }
+        }
+    });
+});
+
+// ==========================================
+// ULTIMATE SCROLL PERFORMANCE OPTIMIZER
+// ==========================================
+let scrollTimeout;
+window.addEventListener('scroll', function () {
+    // Add class when scrolling starts
+    if (!document.body.classList.contains('is-scrolling')) {
+        document.body.classList.add('is-scrolling');
+    }
+
+    // Clear timeout throughout the scroll
+    clearTimeout(scrollTimeout);
+
+    // Remove class 150ms after scrolling stops
+    scrollTimeout = setTimeout(function () {
+        document.body.classList.remove('is-scrolling');
+    }, 150);
+}, { passive: true }); // 'passive: true' prevents JS from blocking the scroll thread
+
+// ==========================================
+// PRELOADER GHOST-KILLER (FAIL-SAFE)
+// ==========================================
+window.addEventListener('load', function() {
+    // Wait 1.5 seconds to allow any existing fade-out animations to finish beautifully
+    setTimeout(function() {
+        // Target all common preloader class/id names
+        const preloaders = document.querySelectorAll('#preloader, .preloader, #loader, .loader, .loader-wrapper, [data-preloader]');
+        
+        preloaders.forEach(function(loader) {
+            loader.style.display = 'none'; // Stop background CSS animations instantly
+            loader.remove(); // completely remove from DOM to free CPU/GPU VRAM
+        });
+
+        // Ensure body scrolling is forcefully unlocked
+        document.body.style.overflowX = 'clip';
+        document.body.style.overflowY = 'visible';
+        document.body.style.pointerEvents = 'auto';
+    }, 1500);
+});
+
+// ==========================================
+// BULLETPROOF SMOOTH SCROLLING
+// ==========================================
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        const targetId = this.getAttribute('href');
+        // Ignore dummy links
+        if (targetId === '#' || targetId === '') return; 
+        
+        const targetElement = document.querySelector(targetId);
+        
+        if (targetElement) {
+            e.preventDefault(); // Stop normal jump
+            
+            // Calculate header height if you have a fixed navbar (adjust 80 if needed)
+            const headerOffset = 80; 
+            const elementPosition = targetElement.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+            
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
         }
     });
 });

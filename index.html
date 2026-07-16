@@ -63,10 +63,18 @@
             </a>
             <ul class="nav-links">
                 <li><a href="#hero" class="nav-link">Home</a></li>
-                <li><a href="#services" class="nav-link">Services</a></li>
+<li class="nav-dropdown-wrapper">
+    <a href="#services" class="nav-link dropdown-toggle">Services <span class="dropdown-arrow">▼</span></a>
+    <ul class="nav-dropdown-menu">
+        <li><a href="#ai-automation">AI Automation & Agents</a></li>
+        <li><a href="#full-stack">Full-Stack Web Systems</a></li>
+        <li><a href="#backend">Python Backend Engineering</a></li>
+        <li><a href="#growth">Social Media Growth</a></li>
+    </ul>
+</li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#authority" class="nav-link">Tech</a></li>
-                <li><a href="#workflow" class="nav-link">Process</a></li>
+                <li><a href="#process" class="nav-link">Process</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="nav-actions">
@@ -201,6 +209,11 @@
 
     <!-- Services Section -->
     <section id="services" class="section">
+        <!-- Dropdown Anchors -->
+        <div id="ai-automation"></div>
+        <div id="full-stack"></div>
+        <div id="backend"></div>
+        <div id="growth"></div>
         <div class="container">
             <div class="section-header" data-animate="fade-up">
                 <h2 class="section-title">What I <span class="gradient-text">Build</span></h2>
