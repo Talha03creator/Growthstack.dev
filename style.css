@@ -2672,3 +2672,39 @@ header a:hover, nav a:hover, .nav-link:hover {
         transform: translateY(30px) !important; /* Brute-force visual nudge */
     }
 }
+
+/* ========================================= */
+/* ACCESSIBILITY: WCAG CONTRAST & TOUCH FIX  */
+/* ========================================= */
+
+/* Fix 1: Improve contrast for Service Cards */
+.service-card .service-title,
+.service-card h3 {
+    color: #ffffff !important; /* Pure white for maximum contrast */
+}
+.service-card p {
+    color: #e5e7eb !important; /* Brighter gray for perfect readability */
+}
+
+/* Fix 2: Ensure 48x48px Touch Targets for Mobile */
+#whatsapp-btn, 
+#chat-toggle-btn {
+    min-width: 50px !important;
+    min-height: 50px !important;
+    margin: 8px !important; /* Adds safe spacing so fingers don't miss */
+}
+
+/* ========================================= */
+/* UI FIX: STACK FLOATING ACTION BUTTONS     */
+/* ========================================= */
+#chat-toggle-btn {
+    position: fixed !important;
+    bottom: 20px !important;
+    z-index: 1000 !important;
+}
+
+#whatsapp-btn {
+    position: fixed !important;
+    bottom: 85px !important; /* Pushes WhatsApp button exactly above the chat button */
+    z-index: 999 !important;
+}
