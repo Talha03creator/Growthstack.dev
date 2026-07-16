@@ -351,6 +351,8 @@ a {
     display: flex;
     align-items: center;
     transition: var(--transition);
+    background: rgba(10, 15, 25, 0.95); /* Deep dark background */
+    backdrop-filter: blur(10px);
 }
 
 #navbar.scrolled {
@@ -440,14 +442,15 @@ a {
 
 /* Hero */
 #hero {
-    min-height: 100vh;
+    padding-top: 120px !important; /* Forces content below the 80px navbar */
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    min-height: 100vh;
+    align-items: center;
     text-align: center;
     position: relative;
     z-index: 2;
-    padding-top: 80px;
 }
 
 .hero-content {
@@ -2256,5 +2259,416 @@ header a:hover, nav a:hover, .nav-link:hover {
         left: 50%;
         top: auto;
         transform: translateX(-50%) translateY(10px);
+    }
+}
+
+/* ========================================== */
+/* AI CHATBOT WIDGET (ISOLATED CSS)           */
+/* ========================================== */
+#chat-toggle-btn {
+    position: fixed; 
+    bottom: 30px; 
+    right: 30px;
+    background: #00e5ff; 
+    color: #0a0f19;
+    border: none; 
+    border-radius: 50%; 
+    width: 60px; 
+    height: 60px;
+    font-size: 1.5rem; 
+    cursor: pointer; 
+    z-index: 99999; /* Max z-index */
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.4);
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#chat-toggle-btn:hover { transform: scale(1.1); }
+
+#ai-chat-widget {
+    position: fixed; bottom: 100px; right: 30px;
+    width: 350px; height: 450px;
+    background: rgba(10, 15, 25, 0.98); border: 1px solid rgba(0, 229, 255, 0.3);
+    border-radius: 15px; display: flex; flex-direction: column;
+    z-index: 10000; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.8);
+    transition: all 0.3s ease;
+}
+.chat-hidden { opacity: 0; pointer-events: none; transform: translateY(20px); }
+.chat-visible { opacity: 1; pointer-events: all; transform: translateY(0); }
+
+#chat-header {
+    background: rgba(0, 229, 255, 0.1); padding: 15px;
+    color: #00e5ff; font-weight: bold; display: flex;
+    justify-content: space-between; border-bottom: 1px solid rgba(0, 229, 255, 0.2);
+}
+#close-chat { cursor: pointer; }
+#chat-messages {
+    flex: 1; padding: 15px; overflow-y: auto;
+    display: flex; flex-direction: column; gap: 10px; color: #e0e0e0; font-size: 0.9rem;
+}
+#chat-input-area {
+    display: flex; border-top: 1px solid rgba(0, 229, 255, 0.2);
+}
+#chat-input {
+    flex: 1; background: transparent; border: none; padding: 15px;
+    color: #fff; outline: none;
+}
+#send-chat {
+    background: transparent; border: none; color: #00e5ff;
+    padding: 0 20px; cursor: pointer; font-size: 1.2rem;
+}
+
+/* Chatbot Quick Questions */
+#quick-questions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+.quick-btn {
+    background: rgba(0, 229, 255, 0.05);
+    border: 1px solid rgba(0, 229, 255, 0.3);
+    color: #00e5ff;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: left;
+}
+.quick-btn:hover {
+    background: rgba(0, 229, 255, 0.2);
+    transform: translateY(-2px);
+}
+.chat-header-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+}
+
+/* Mobile Optimization Fixes */
+@media (max-width: 768px) {
+    /* Navbar Overflow */
+    #navbar, .nav-container {
+        display: flex;
+        justify-content: space-between !important;
+        align-items: center;
+        padding: 0 20px;
+        width: 100%;
+    }
+    /* 1. Force the hamburger to absolute top-right */
+    .mobile-menu-btn {
+        display: block !important;
+        position: absolute !important;
+        top: 25px !important;
+        right: 20px !important;
+        z-index: 1001;
+        font-size: 2rem;
+        color: #00e5ff;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* 2. Hide links by default and style as a sleek dropdown */
+    .nav-links {
+        display: none !important; /* HIDDEN BY DEFAULT */
+        position: absolute;
+        top: 80px; /* Drops down just below the header */
+        left: 0;
+        width: 100%;
+        background: rgba(10, 15, 25, 0.98);
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        border-bottom: 1px solid rgba(0, 229, 255, 0.2);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.9);
+        z-index: 1000;
+    }
+
+    /* 3. The class that JS will toggle to show the menu */
+    .nav-links.active {
+        display: flex !important;
+    }
+
+    /* 1. Fix Hero Container Spacing */
+    #hero {
+        padding-top: 100px !important;
+        padding-bottom: 40px !important;
+        min-height: auto !important; /* Removes massive 100vh stretching if it's breaking */
+        gap: 15px !important;
+    }
+
+    /* 2. Stop Text Jumping */
+    #hero h1, 
+    .typing-container, 
+    .typewriter-wrapper { 
+        min-height: 130px !important; /* CRITICAL: Reserves exact space for 3 lines of text */
+        height: auto !important;
+        font-size: 1.8rem !important; /* Optimizes font size for mobile screens */
+        line-height: 1.3 !important;
+        margin-bottom: 5px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* 3. Pull up the Paragraph and CTA Buttons */
+    #hero p {
+        margin-top: 0 !important;
+        margin-bottom: 20px !important;
+        font-size: 1rem !important;
+    }
+    
+    .cta-buttons, 
+    .hero-buttons { 
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centers the buttons horizontally */
+        gap: 15px !important;
+        margin-top: 15px !important;
+        width: 100%;
+    }
+
+    .cta-buttons a, 
+    .hero-buttons a,
+    .cta-buttons button { 
+        width: 80% !important; /* Prevents edge-to-edge stretching */
+        max-width: 280px !important; /* Caps the maximum width */
+        padding: 12px 24px !important; /* Normal, sleek padding */
+        font-size: 1.1rem !important; /* Normal text size */
+        border-radius: 12px !important; /* Sleek rounded corners */
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+/* ========================================= */
+/* MOBILE OVERRIDE FOR 5 PROCESS TABS        */
+/* ========================================= */
+@media (max-width: 768px) {
+    /* 1. Force the container to wrap */
+    #process div[class*="tab"], 
+    #process div[class*="process"],
+    #process ul {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 8px !important;
+        width: 100% !important;
+        padding: 0 5px !important;
+        overflow-x: hidden !important;
+    }
+
+    /* 2. Shrink and optimize the 5 buttons */
+    #process button, 
+    #process a.tab-btn,
+    #process [class*="tab"] button {
+        flex: 0 1 auto !important; /* Allow buttons to size themselves naturally */
+        font-size: 0.75rem !important; /* Smaller text to fit 5 buttons gracefully */
+        padding: 8px 12px !important;
+        margin: 0 !important;
+        white-space: nowrap !important; /* Keep text inside buttons on one line */
+        border-radius: 30px !important; /* Sleek pill shape for mobile */
+    }
+}
+
+/* ========================================= */
+/* BRUTE-FORCE OVERRIDE FOR 5 TABS (MOBILE)  */
+/* ========================================= */
+@media (max-width: 768px) {
+    /* 1. Smash restrictions preventing the wrap */
+    #process .tabs, 
+    #process .process-tabs,
+    #process .tab-container,
+    #process ul,
+    #process div[style*="flex"],
+    #process div[class*="container"] {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        width: 100% !important;
+        max-width: 100vw !important;
+        box-sizing: border-box !important;
+        white-space: normal !important; /* CRITICAL: Overrides desktop nowrap */
+        overflow: visible !important;
+        gap: 8px !important;
+        padding: 0 10px !important;
+    }
+
+    /* 2. Scale 5 buttons dynamically (e.g., 3 on top, 2 on bottom) */
+    #process button, 
+    #process .tab-btn,
+    #process a[class*="btn"] {
+        flex: 1 1 calc(33% - 15px) !important; /* Force items to share space nicely */
+        min-width: 100px !important;
+        font-size: 0.75rem !important; /* Smaller text for long words like Architecture */
+        padding: 10px !important;
+        margin: 0 !important;
+        border-radius: 30px !important;
+        text-align: center !important;
+        white-space: nowrap !important;
+    }
+}
+
+/* ========================================= */
+/* DESTROY HORIZONTAL SCROLL & FORCE WRAP    */
+/* ========================================= */
+@media (max-width: 768px) {
+    /* 1. Target the exact parent holding the buttons and kill the scroll */
+    #process div:has(> button),
+    #process div:has(> .tab-btn),
+    #process .tabs-container,
+    #process ul {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        width: 100% !important;
+        overflow-x: visible !important; /* CRITICAL: Kills horizontal scrolling */
+        overflow-y: visible !important;
+        white-space: normal !important; /* CRITICAL: Kills single-line forcing */
+        padding: 0 10px !important;
+        gap: 10px !important;
+    }
+
+    /* 2. Restructure the 5 buttons to fit in multiple rows */
+    #process button, 
+    #process .tab-btn,
+    #process a[class*="btn"] {
+        flex: 0 1 auto !important;
+        width: calc(50% - 15px) !important; /* Forces 2 buttons per row */
+        min-width: 120px !important;
+        font-size: 0.75rem !important;
+        padding: 12px 5px !important;
+        margin: 0 !important;
+        border-radius: 30px !important;
+        text-align: center !important;
+        white-space: normal !important; /* Allows long text like 'Architecture' to wrap inside the button if needed */
+        line-height: 1.2 !important;
+    }
+}
+
+/* ========================================= */
+/* ORBIT CLICKABILITY & Z-INDEX FIX          */
+/* ========================================= */
+#process {
+    position: relative;
+    z-index: 10;
+}
+/* Force orbit items/icons to the very front so they are clickable */
+#process div[class*="item"], 
+#process div[class*="icon"], 
+#process div[class*="orbit-btn"],
+#process .step,
+#process .orbit-point,
+#process .r-node {
+    z-index: 9999 !important;
+    cursor: pointer !important;
+    pointer-events: auto !important;
+    position: relative;
+}
+/* Stop the center circle text/container from blocking clicks */
+#process div[class*="center"], 
+#process div[class*="content"],
+#process .inner-circle {
+    pointer-events: none !important; /* Lets clicks pass through to icons behind it */
+    z-index: 1;
+}
+
+/* Format center text beautifully */
+#process div[class*="center"] p, 
+#process div[class*="content"] p,
+#process .inner-text {
+    font-size: 0.85rem !important;
+    line-height: 1.4 !important;
+    text-align: center !important;
+    max-width: 90% !important;
+    margin: 0 auto !important;
+    overflow: hidden !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Max 4 lines of text */
+    -webkit-box-orient: vertical;
+}
+
+/* ========================================= */
+/* ORBIT ICONS SIZING & GEOMETRY FIX         */
+/* ========================================= */
+#process [class*="orbit-item"], 
+#process [class*="icon-wrapper"],
+#process .process-icon,
+#process .r-node {
+    position: absolute !important;
+    width: 60px !important;      /* Forces normal size, stops the giant </> bug */
+    height: 60px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transform: translate(-50%, -50%) !important; /* CRITICAL: Centers the icon exactly on the line */
+    z-index: 100 !important;
+}
+
+/* ========================================= */
+/* FIX ORBIT OVERLAPPING TABS (MOBILE ONLY)  */
+/* ========================================= */
+@media (max-width: 768px) {
+    #process .orbit-wrapper, 
+    #process .orbit-container,
+    #process .radar-container,
+    #process .circle-wrapper,
+    #process .orbit {
+        margin-top: 60px !important; /* CRITICAL: Pushes the circle safely below the buttons */
+        margin-bottom: 20px !important;
+    }
+}
+
+/* ========================================= */
+/* PERFECT 5-POINT GEOMETRIC SPACING         */
+/* ========================================= */
+#process [class*="orbit-item"]:nth-child(1), #process .process-icon:nth-child(1), #process .r-node:nth-child(1) { 
+    top: 0% !important; left: 50% !important; /* Top Center */
+}
+#process [class*="orbit-item"]:nth-child(2), #process .process-icon:nth-child(2), #process .r-node:nth-child(2) { 
+    top: 34.5% !important; left: 97.5% !important; /* Mid-Right */
+}
+#process [class*="orbit-item"]:nth-child(3), #process .process-icon:nth-child(3), #process .r-node:nth-child(3) { 
+    top: 90.5% !important; left: 79.3% !important; /* Bottom-Right */
+}
+#process [class*="orbit-item"]:nth-child(4), #process .process-icon:nth-child(4), #process .r-node:nth-child(4) { 
+    top: 90.5% !important; left: 20.7% !important; /* Bottom-Left */
+}
+#process [class*="orbit-item"]:nth-child(5), #process .process-icon:nth-child(5), #process .r-node:nth-child(5) { 
+    top: 34.5% !important; left: 2.5% !important; /* Mid-Left */
+}
+
+/* Ensure they are perfectly centered on their exact coordinates */
+#process [class*="orbit-item"], #process .process-icon, #process .r-node {
+    transform: translate(-50%, -50%) !important;
+}
+
+/* ========================================= */
+/* BRUTE-FORCE GAP BETWEEN TABS AND ORBIT    */
+/* ========================================= */
+@media (max-width: 768px) {
+    /* 1. Force a massive bottom margin on the tabs container */
+    #process ul, 
+    #process .process-tabs, 
+    #process .tabs,
+    #process div[class*="tab-container"],
+    #process .radar-menu {
+        margin-bottom: 100px !important; /* Creates physical space below the buttons */
+    }
+
+    /* 2. Push the entire orbit structure down aggressively */
+    #process .orbit-wrapper, 
+    #process .orbit-container,
+    #process .radar,
+    #process .radar-container,
+    #process div[class*="orbit"] {
+        margin-top: 40px !important;
+        transform: translateY(30px) !important; /* Brute-force visual nudge */
     }
 }

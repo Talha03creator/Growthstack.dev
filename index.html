@@ -61,6 +61,7 @@
             <a href="#" class="nav-logo">
                 <span class="gradient-text">GrowthsStack</span>.Dev
             </a>
+            <div class="mobile-menu-btn" style="display: none;">☰</div>
             <ul class="nav-links">
                 <li><a href="#hero" class="nav-link">Home</a></li>
 <li class="nav-dropdown-wrapper">
@@ -79,9 +80,6 @@
             </ul>
             <div class="nav-actions">
                 <span class="nav-handle">@GrowthsStack.Dev</span>
-                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-                    <span></span><span></span><span></span>
-                </button>
             </div>
         </div>
     </nav>
@@ -192,16 +190,16 @@
             </div>
             
             <div class="radar-nodes">
-                <div class="r-node active" data-index="0" style="top: 15%; left: 85%;"><i class="fas fa-search"></i></div>
-                <div class="r-node" data-index="1" style="top: 80%; left: 85%;"><i class="fas fa-sitemap"></i></div>
-                <div class="r-node" data-index="2" style="top: 90%; left: 20%;"><i class="fas fa-code"></i></div>
-                <div class="r-node" data-index="3" style="top: 30%; left: 5%;"><i class="fas fa-rocket"></i></div>
-                <div class="r-node" data-index="4" style="top: 50%; left: 50%; transform: translate(-50%, -50%);"><i class="fas fa-shield-alt"></i></div>
+                <div class="r-node active" data-index="0"><i class="fas fa-search"></i></div>
+                <div class="r-node" data-index="1"><i class="fas fa-sitemap"></i></div>
+                <div class="r-node" data-index="2"><i class="fas fa-code"></i></div>
+                <div class="r-node" data-index="3"><i class="fas fa-rocket"></i></div>
+                <div class="r-node" data-index="4"><i class="fas fa-shield-alt"></i></div>
             </div>
 
             <!-- 100% Locked Center Dynamic Text -->
             <div class="radar-center-content">
-                <p id="radar-desc">Deep dive into business goals, data requirements, and AI feasibility to craft a strategic blueprint.</p>
+                <p id="radar-desc">Defining business goals & AI strategy.</p>
             </div>
         </div>
     </div>
@@ -454,33 +452,6 @@
         </div>
     </section>
 
-<!-- ========================================== -->
-<!-- REAL ENTERPRISE CHATBOT WIDGET             -->
-<!-- ========================================== -->
-<div class="chat-widget-container">
-    <!-- Chat Window -->
-    <div class="chat-window" id="chat-window">
-        <div class="chat-header">
-            <div><i class="fas fa-robot" style="margin-right: 8px; color: var(--cyan);"></i> GrowthsStack AI</div>
-            <button id="close-chat" class="close-chat-btn"><i class="fas fa-times"></i></button>
-        </div>
-        <div class="chat-messages" id="chat-messages">
-            <div class="message bot">
-                <div class="message-content">Hi! I'm the GrowthsStack AI assistant built by Muhammad Talha. How can I help you today?</div>
-            </div>
-        </div>
-        <div class="chat-input-area">
-            <input type="text" id="chat-input" placeholder="Ask me anything..." autocomplete="off">
-            <button id="chat-send-btn"><i class="fas fa-paper-plane"></i></button>
-        </div>
-    </div>
-    
-    <!-- Professional Chat Button (Replaces the neon ball) -->
-    <button class="chat-toggle-btn" id="chat-toggle-btn">
-        <i class="fas fa-comment-dots"></i>
-    </button>
-</div>
-
     <!-- Footer -->
     <footer class="glassmorphism">
         <div class="container text-center">
@@ -492,5 +463,32 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="script.js"></script>
+
+<!-- AI Chatbot Widget (CLEAN) -->
+<div id="ai-chat-widget" class="chat-hidden">
+    <div id="chat-header">
+        <div class="chat-header-title">🤖 GrowthsStack AI</div>
+        <span id="close-chat">✖</span>
+    </div>
+    <div id="chat-messages">
+        <div class="ai-msg" style="text-align: left; margin-bottom: 15px;">
+            <span style="background: rgba(255, 255, 255, 0.1); color: #fff; padding: 10px 14px; border-radius: 12px 12px 12px 0; display: inline-block; max-width: 85%; line-height: 1.4; border: 1px solid rgba(0, 229, 255, 0.2);">
+                Hi! I'm the GrowthsStack AI assistant built by Muhammad Talha. How can I help you today?
+            </span>
+        </div>
+        
+        <!-- Quick Questions -->
+        <div id="quick-questions">
+            <button class="quick-btn">What services do you offer?</button>
+            <button class="quick-btn">Show me your projects</button>
+            <button class="quick-btn">What are your prices?</button>
+        </div>
+    </div>
+    <div id="chat-input-area">
+        <input type="text" id="chat-input" placeholder="Ask me anything...">
+        <button id="send-chat">➤</button>
+    </div>
+</div>
+<button id="chat-toggle-btn">💬</button>
 </body>
 </html>

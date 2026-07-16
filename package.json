@@ -1,0 +1,11 @@
+{
+  "name": "growthstack.dev",
+  "version": "1.0.0",
+  "description": "GrowthsStack.Dev - AI Automation & Digital Agency",
+  "main": "index.html",
+  "scripts": {
+    "start": "uvicorn chatbot_api:app --reload"
+  },
+  "author": "Muhammad Talha Ansari",
+  "license": "ISC"
+}

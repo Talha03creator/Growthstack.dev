@@ -1,15 +1,19 @@
-# Dependency directories
-node_modules/
-
-# OS metadata
-.DS_Store
-Thumbs.db
-
-# Environment variables
+# Security & API Keys
 .env
 .env.local
+*.pem
+secrets.json
 
-# Build outputs
+# Dependencies
+node_modules/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# OS & Build Files
+.DS_Store
+.next/
 dist/
 build/
-.next/
+.vscode/

@@ -818,11 +818,11 @@ document.getElementById('reviewForm').addEventListener('submit', e => {
 // ORBIT RADAR LOGIC
 // ==========================================
 const radarData = [
-    "Deep dive into business goals, data requirements, and AI feasibility to craft a strategic blueprint.",
-    "Designing robust scalable architectures, planning databases, and defining API endpoints for the AI pipeline.",
-    "Building enterprise-grade backend logic, training ML models, and crafting seamless user experiences.",
-    "Containerizing with Docker, setting up CI/CD, and deploying solutions to secure edge networks.",
-    "Providing continuous monitoring, analytics, and 24/7 AI maintenance to ensure unimpeded business growth."
+    "Defining business goals & AI strategy.",
+    "Designing scalable backend architectures.",
+    "Writing robust & efficient code.",
+    "Seamless Docker & Cloud deployments.",
+    "24/7 maintenance & system monitoring."
 ];
 
 const radarBtns = document.querySelectorAll('.radar-btn');
@@ -932,29 +932,174 @@ window.addEventListener('load', function() {
     }, 1500);
 });
 
+setTimeout(() => {
+    const preloader = document.querySelector('#preloader, .preloader, .loader-wrapper');
+    if(preloader) {
+        preloader.style.opacity = '0';
+        setTimeout(() => preloader.style.display = 'none', 500);
+        document.body.style.overflow = 'auto'; // ensure scrolling is restored
+    }
+}, 3000);
+
 // ==========================================
 // BULLETPROOF SMOOTH SCROLLING
 // ==========================================
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        const targetId = this.getAttribute('href');
-        // Ignore dummy links
-        if (targetId === '#' || targetId === '') return; 
-        
-        const targetElement = document.querySelector(targetId);
-        
-        if (targetElement) {
-            e.preventDefault(); // Stop normal jump
-            
-            // Calculate header height if you have a fixed navbar (adjust 80 if needed)
-            const headerOffset = 80; 
-            const elementPosition = targetElement.getBoundingClientRect().top;
-            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-            
-            window.scrollTo({
-                top: offsetPosition,
-                behavior: 'smooth'
+document.addEventListener("DOMContentLoaded", () => {
+    try {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const targetId = this.getAttribute('href');
+                // Ignore dummy links
+                if (targetId === '#' || targetId === '') return; 
+                
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    e.preventDefault(); // Stop normal jump
+                    
+                    // Calculate header height if you have a fixed navbar (adjust 80 if needed)
+                    const headerOffset = 80; 
+                    const elementPosition = targetElement.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                    
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+// ==========================================
+// AI CHATBOT FRONTEND LOGIC
+// ==========================================
+        const chatToggleBtn = document.getElementById('chat-toggle-btn');
+        const chatWidget = document.getElementById('ai-chat-widget');
+        const closeChatBtn = document.getElementById('close-chat');
+        const sendChatBtn = document.getElementById('send-chat');
+        const chatInput = document.getElementById('chat-input');
+        const chatMessages = document.getElementById('chat-messages');
+
+        // Persistent Session Memory
+        let sessionId = localStorage.getItem('growthsstack_chat_session');
+        if (!sessionId) {
+            sessionId = Math.random().toString(36).substring(2, 15);
+            localStorage.setItem('growthsstack_chat_session', sessionId);
+        }
+        window.chatSessionId = sessionId;
+
+        if(chatToggleBtn && chatWidget) {
+            chatToggleBtn.addEventListener('click', () => {
+                chatWidget.classList.remove('chat-hidden');
+                chatWidget.classList.add('chat-visible');
+            });
+
+            closeChatBtn.addEventListener('click', () => {
+                chatWidget.classList.remove('chat-visible');
+                chatWidget.classList.add('chat-hidden');
             });
         }
+
+        async function sendMessage() {
+            const chatInput = document.getElementById('chat-input');
+            const chatMessages = document.getElementById('chat-messages');
+            
+            if (!chatInput || !chatMessages) return;
+            
+            const message = chatInput.value.trim();
+            if (!message) return;
+
+            // 1. Display user message
+            chatMessages.innerHTML += `<div style="text-align: right; margin-bottom: 10px;"><span style="background: rgba(0, 229, 255, 0.15); color: #fff; padding: 10px 14px; border-radius: 12px 12px 0 12px; display: inline-block; max-width: 85%; line-height: 1.4;">${message}</span></div>`;
+            chatInput.value = '';
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+
+            // 2. Show typing indicator
+            const typingId = 'typing-' + Date.now();
+            chatMessages.innerHTML += `<div id="${typingId}" style="text-align: left; margin-bottom: 10px;"><span style="background: rgba(255, 255, 255, 0.05); color: #aaa; padding: 10px 14px; border-radius: 12px 12px 12px 0; display: inline-block; font-style: italic;">GrowthsStack AI is thinking...</span></div>`;
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+
+            try {
+                // 3. Call the Python backend (Groq API)
+                const response = await fetch('http://localhost:8000/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ session_id: window.chatSessionId, message: message })
+                });
+
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                const data = await response.json();
+
+                // 4. Remove typing indicator & show actual AI response
+                document.getElementById(typingId).remove();
+                chatMessages.innerHTML += `<div style="text-align: left; margin-bottom: 10px;"><span style="background: rgba(255, 255, 255, 0.1); color: #fff; padding: 10px 14px; border-radius: 12px 12px 12px 0; display: inline-block; max-width: 85%; line-height: 1.4; border: 1px solid rgba(0, 229, 255, 0.2);">${data.reply}</span></div>`;
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+
+            } catch (error) {
+                document.getElementById(typingId).remove();
+                chatMessages.innerHTML += `<div style="text-align: left; margin-bottom: 10px;"><span style="color: #ff4a4a; font-size: 0.9em; border: 1px solid rgba(255, 74, 74, 0.3); padding: 8px; border-radius: 8px; display: inline-block;">Backend disconnected. Ensure Python uvicorn is running.</span></div>`;
+                console.error("Backend Connection Error:", error);
+            }
+        }
+
+        // Ensure event listeners are attached only once
+        const sendBtn = document.getElementById('send-chat');
+        const inputField = document.getElementById('chat-input');
+
+        if (sendBtn) {
+            sendBtn.replaceWith(sendBtn.cloneNode(true)); // remove old listeners
+            document.getElementById('send-chat').addEventListener('click', sendMessage);
+        }
+        if (inputField) {
+            inputField.replaceWith(inputField.cloneNode(true)); // remove old listeners
+            document.getElementById('chat-input').addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') sendMessage();
+            });
+        }
+
+// Quick Questions Logic
+const quickBtns = document.querySelectorAll('.quick-btn');
+const quickQuestionsContainer = document.getElementById('quick-questions');
+
+quickBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        // Set input value to the button's text
+        const chatInput = document.getElementById('chat-input');
+        chatInput.value = btn.innerText;
+        
+        // Hide the quick questions permanently for this session
+        quickQuestionsContainer.style.display = 'none';
+        
+        // Trigger the send message function
+        if(typeof sendMessage === 'function') {
+            sendMessage();
+        }
     });
+});
+
+// Mobile Menu Toggle Logic
+const menuBtn = document.querySelector('.mobile-menu-btn');
+const navLinksContainer = document.querySelector('.nav-links');
+
+if (menuBtn && navLinksContainer) {
+    // Clone to remove previously attached listeners
+    const newMenuBtn = menuBtn.cloneNode(true);
+    menuBtn.replaceWith(newMenuBtn);
+    
+    newMenuBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        navLinksContainer.classList.toggle('active');
+        
+        // Optional: Change hamburger to an 'X' when open
+        if(navLinksContainer.classList.contains('active')) {
+            newMenuBtn.innerHTML = '✖'; 
+        } else {
+            newMenuBtn.innerHTML = '☰';
+        }
+    });
+}
+
+    } catch (error) {
+        console.error("Non-fatal error in injected modules:", error);
+    }
 });
